@@ -1,0 +1,682 @@
+# Friulian translation for citations.
+# Copyright (C) 2023 citations's COPYRIGHT HOLDER
+# This file is distributed under the same license as the citations package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: citations master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/citations/-/issues\n"
+"POT-Creation-Date: 2024-03-05 20:36+0000\n"
+"PO-Revision-Date: 2024-04-24 17:13+0200\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"Language-Team: Friulian <f.t.public@gmail.com>\n"
+"Language: fur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Editor: HaiPO 1.4 beta\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: cratebibtex/src/entry_type.rs:117
+msgid "Article"
+msgstr "Articul"
+
+#: cratebibtex/src/entry_type.rs:118
+msgid "Book"
+msgstr "Libri"
+
+#: cratebibtex/src/entry_type.rs:119
+msgid "Misc"
+msgstr "Vari"
+
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:121
+msgid "In Proceedings"
+msgstr "In ats di cunvigne"
+
+#: cratebibtex/src/entry_type.rs:122
+msgid "Unpublished"
+msgstr "No publicât"
+
+#. NOTE As in online source
+#: cratebibtex/src/entry_type.rs:124
+msgid "Online"
+msgstr "In rêt"
+
+#. NOTE As in other kind of source
+#: cratebibtex/src/entry_type.rs:126
+msgid "Other"
+msgstr "Altri"
+
+#: cratebibtex/src/entry_type.rs:127
+msgid "Booklet"
+msgstr "Opuscul"
+
+#: cratebibtex/src/entry_type.rs:128
+msgid "Conference"
+msgstr "Conference"
+
+#: cratebibtex/src/entry_type.rs:129
+msgid "In Book"
+msgstr "In libri"
+
+#: cratebibtex/src/entry_type.rs:130
+msgid "In Collection"
+msgstr "In racuelte"
+
+#. NOTE As in instruction manual
+#: cratebibtex/src/entry_type.rs:132
+msgid "Manual"
+msgstr "Manuâl"
+
+#: cratebibtex/src/entry_type.rs:133
+msgid "Master's Thesis"
+msgstr "Tesi magjistrâl"
+
+#: cratebibtex/src/entry_type.rs:134
+msgid "PhD Thesis"
+msgstr "Tesi di dotorât"
+
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:136
+msgid "Proceedings"
+msgstr "Ats di cunvigne"
+
+#: cratebibtex/src/entry_type.rs:137
+msgid "Tech Report"
+msgstr "Rapuart tecnic"
+
+#. NOTE Plain as in Plain Text
+#: cratebibtex/src/format.rs:52
+msgid "Plain"
+msgstr "Sempliç"
+
+#. NOTE: This is the app name
+#: data/org.gnome.World.Citations.desktop.in.in:3
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:7
+#: data/resources/ui/window.ui:69 src/main.rs:42 src/window.rs:620
+msgid "Citations"
+msgstr "Citazions"
+
+#: data/org.gnome.World.Citations.desktop.in.in:4
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:8 src/window.rs:622
+msgid "Manage your bibliography"
+msgstr "Gjestìs la tô bibliografie"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.World.Citations.desktop.in.in:10
+msgid "bibliography;citing;literature;BibTeX;LaTeX;TeX;"
+msgstr "bibliografie;citazion;leterature;BibTeX;LaTeX;TeX;"
+
+#: data/org.gnome.World.Citations.desktop.in.in:19
+msgid "New Window"
+msgstr "Gnûf barcon"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:6
+msgid "Window width"
+msgstr "Largjece barcon"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:10
+msgid "Window height"
+msgstr "Altece barcon"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:14
+msgid "Window maximized state"
+msgstr "Il stât slargjât dal barcon"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:18
+msgid "List of paths of recent files"
+msgstr "Liste di percors dai files resints"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:22
+#: data/org.gnome.World.Citations.gschema.xml.in:26
+msgid "Default template for book citation"
+msgstr "Model predefinît pe citazion di libri"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:30
+msgid "Default template kind for citations"
+msgstr "Gjenar di model predefinît pes citazions"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:34
+msgid "Default template format for citations"
+msgstr "Formât di model predefinît pes citazions"
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:10
+msgid "Manage your bibliographies using the BibTeX format."
+msgstr "Gjestìs lis tôs bibliografiis doprant il formât BibTeX."
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:15
+msgid "Main window"
+msgstr "Barcon principâl"
+
+#. Translators: Selects a PDF file for the citation
+#: data/resources/ui/add_pdf_dialog.ui:8 data/resources/ui/entry_page.ui:268
+msgid "Add PDF"
+msgstr "Zonte PDF"
+
+#: data/resources/ui/add_pdf_dialog.ui:46
+msgid "Bibliography folder not set"
+msgstr "La cartele de bibliografie no je stade stabilide"
+
+#: data/resources/ui/add_pdf_dialog.ui:64
+msgid ""
+"Creates a copy of the selected pdf and stores it in your Bibliography folder."
+msgstr ""
+"Al cree une copie dal pdf selezionât e lu archivie inte tô cartele de "
+"bibliografie."
+
+#: data/resources/ui/add_pdf_dialog.ui:79
+msgid "From File"
+msgstr "Di un file"
+
+#: data/resources/ui/add_pdf_dialog.ui:92
+msgid "From URL"
+msgstr "Dal URL"
+
+#: data/resources/ui/add_pdf_dialog.ui:98
+msgid "Download…"
+msgstr "Discjame…"
+
+#: data/resources/ui/citation_preview.ui:15
+msgid "Custom Citation Format"
+msgstr "Formât di citazion personalizât"
+
+#: data/resources/ui/citation_preview.ui:50
+msgid "Citation"
+msgstr "Citazion"
+
+#: data/resources/ui/citation_preview.ui:94 data/resources/ui/entry_page.ui:113
+msgid "Copy"
+msgstr "Copie"
+
+#: data/resources/ui/citation_preview.ui:137
+msgid "Custom Template"
+msgstr "Model personalizât"
+
+#: data/resources/ui/citation_preview.ui:153
+msgid ""
+"Write a custom format for your citations, to insert the contents of a tag "
+"<tt>sometag</tt> write <tt>%SOMETAG%</tt>. Basic markdown syntax for bold "
+"and italics is supported.\n"
+"            "
+msgstr ""
+"Scrîf un formât personalizât pes tôs citazions, par inserî i contignûts di "
+"une etichete <tt>cualchietichete</tt> scrîf <tt>%SOMETAG%</tt>. La sintassi "
+"di marcadure basiche pal neret e pal corsîf e je supuartade.\n"
+"            "
+
+#: data/resources/ui/citation_preview.ui:159
+msgid "Example:"
+msgstr "Esempli:"
+
+#. TRANSLATORS Empty state widget
+#: data/resources/ui/entry_list.ui:9
+msgid "No Citations"
+msgstr "Nissune citazion"
+
+#: data/resources/ui/entry_list.ui:10
+msgid "Create a new citation"
+msgstr "Cree une gnove citazion"
+
+#: data/resources/ui/entry_list_row.ui:90
+msgid "_Open PDF"
+msgstr "_Vierç PDF"
+
+#: data/resources/ui/entry_list_row.ui:94
+msgid "_Copy Key"
+msgstr "_Copie clâf"
+
+#: data/resources/ui/entry_list_row.ui:100 data/resources/ui/window.ui:61
+msgid "_Delete"
+msgstr "_Elimine"
+
+#: data/resources/ui/entry_page.ui:13
+msgid "No Citation Selected"
+msgstr "Nissune citazion selezionade"
+
+#: data/resources/ui/entry_page.ui:82
+msgid "Citation _Type"
+msgstr "_Gjenar di citazion"
+
+#: data/resources/ui/entry_page.ui:98
+msgid "_Other Citation Type"
+msgstr "Al_tris gjenar di citazion"
+
+#: data/resources/ui/entry_page.ui:105
+msgid "_Citation Key"
+msgstr "_Clâf di citazion"
+
+#: data/resources/ui/entry_page.ui:124
+msgid "_Author"
+msgstr "_Autôr"
+
+#: data/resources/ui/entry_page.ui:130
+msgid "_Title"
+msgstr "_Titul"
+
+#: data/resources/ui/entry_page.ui:136
+msgid "_Year"
+msgstr "_An"
+
+#: data/resources/ui/entry_page.ui:152 src/entry_page.rs:403
+msgid "Open in Browser"
+msgstr "Vierç tal navigadôr"
+
+#: data/resources/ui/entry_page.ui:168
+msgid "Other Properties"
+msgstr "Altris proprietâts"
+
+#: data/resources/ui/entry_page.ui:182
+msgid "Abstract"
+msgstr "Sunt"
+
+#: data/resources/ui/entry_page.ui:186
+msgid "Copy Abstract"
+msgstr "Copie sunt"
+
+#: data/resources/ui/entry_page.ui:218
+msgid "Notes"
+msgstr "Notis"
+
+#: data/resources/ui/entry_page.ui:222
+msgid "Copy Notes"
+msgstr "Copie notis"
+
+#: data/resources/ui/entry_page.ui:286
+msgid "PDF"
+msgstr "PDF"
+
+#: data/resources/ui/entry_page.ui:297 data/resources/ui/window.ui:10
+#: data/resources/ui/window.ui:107 data/resources/ui/window.ui:157
+msgid "_Open"
+msgstr "_Vierç"
+
+#: data/resources/ui/entry_page.ui:310
+msgid "Delete PDF"
+msgstr "Elimine PDF"
+
+#: data/resources/ui/entry_page.ui:351
+msgid "Could not set PDF Preview"
+msgstr "Impussibil configurâ la anteprime PDF"
+
+#: data/resources/ui/new_entry_dialog.ui:7
+msgid "Add new Entry"
+msgstr "Zonte gnove vôs"
+
+#: data/resources/ui/new_entry_dialog.ui:17
+msgid "_Cancel"
+msgstr "_Anule"
+
+#: data/resources/ui/new_entry_dialog.ui:24
+msgid "C_reate"
+msgstr "C_ree"
+
+#: data/resources/ui/new_entry_dialog.ui:40
+msgid "New"
+msgstr "Gnove"
+
+#: data/resources/ui/new_entry_dialog.ui:59
+msgid "Citation Key"
+msgstr "Clâf di citazion"
+
+#: data/resources/ui/new_entry_dialog.ui:66
+msgid "Citation Type"
+msgstr "Gjenar di citazion"
+
+#. TRANSLATORS BibTeX is a proper name
+#: data/resources/ui/new_entry_dialog.ui:86
+msgid "From BibTeX"
+msgstr "Dal BibTeX"
+
+#: data/resources/ui/new_entry_dialog.ui:105
+msgid "From DOI"
+msgstr "Di DOI"
+
+#. TRANSLATORS DOI is a proper name
+#: data/resources/ui/new_entry_dialog.ui:116
+msgid "DOI"
+msgstr "DOI"
+
+#: data/resources/ui/shortcuts.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Gjenerâl"
+
+#: data/resources/ui/shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Mostre scurtis"
+
+#: data/resources/ui/shortcuts.ui:20
+msgctxt "shortcut window"
+msgid "New Window"
+msgstr "Gnûf barcon"
+
+#: data/resources/ui/shortcuts.ui:26
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Jes"
+
+#: data/resources/ui/shortcuts.ui:34
+msgctxt "shortcut window"
+msgid "Bibliography"
+msgstr "Bibliografie"
+
+#: data/resources/ui/shortcuts.ui:37
+msgctxt "shortcut window"
+msgid "Open"
+msgstr "Vierç"
+
+#: data/resources/ui/shortcuts.ui:43
+msgctxt "shortcut window"
+msgid "Save"
+msgstr "Salve"
+
+#: data/resources/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Cîr"
+
+#: data/resources/ui/window.ui:6
+msgid "_Create New Bibliography"
+msgstr "_Cree gnove bibliografie"
+
+#: data/resources/ui/window.ui:17 data/resources/ui/window.ui:39
+msgid "_Keyboard Shortcuts"
+msgstr "_Scurtis di tastiere"
+
+#. TRANSLATORS About dialog
+#: data/resources/ui/window.ui:21 data/resources/ui/window.ui:43
+msgid "_About Citations"
+msgstr "_Informazions su Citazions"
+
+#: data/resources/ui/window.ui:29
+msgid "_Save"
+msgstr "_Salve"
+
+#: data/resources/ui/window.ui:33
+msgid "New _Window"
+msgstr "Gnûf _barcon"
+
+#: data/resources/ui/window.ui:51
+msgid "_Search in Google Scholar"
+msgstr "_Cîr in Google Scholar"
+
+#. TRANSLATORS arXiv is a proper name
+#: data/resources/ui/window.ui:55
+msgid "_Search in arXiv"
+msgstr "_Cîr in arXiv"
+
+#: data/resources/ui/window.ui:90 data/resources/ui/window.ui:130
+#: data/resources/ui/window.ui:210
+msgid "Main Menu"
+msgstr "Menù principâl"
+
+#. TRANSLATORS BibTeX is a proper name
+#: data/resources/ui/window.ui:100
+msgid "Open a BibTeX File"
+msgstr "Vierç un file BibTeX"
+
+#: data/resources/ui/window.ui:101
+msgid "Or drag-and-drop a file"
+msgstr "Opûr strissine e mole un file"
+
+#: data/resources/ui/window.ui:139
+msgid "Manage your Citations"
+msgstr "Gjestìs lis tôs citazions"
+
+#: data/resources/ui/window.ui:149
+msgid "Recent Files"
+msgstr "File resints"
+
+#: data/resources/ui/window.ui:192
+msgid "Sidebar"
+msgstr "Sbare laterâl"
+
+#: data/resources/ui/window.ui:203
+msgid "Add New Citation"
+msgstr "Zonte gnove citazion"
+
+#: data/resources/ui/window.ui:217
+msgid "Search"
+msgstr "Cîr"
+
+#: data/resources/ui/window.ui:231
+msgid "Search…"
+msgstr "Cîr…"
+
+#: data/resources/ui/window.ui:251
+msgid "Content"
+msgstr "Contignût"
+
+#: data/resources/ui/window.ui:261
+msgid "Secondary Menu"
+msgstr "Menù secondari"
+
+#: src/add_pdf_dialog.rs:58
+msgid "Could not set PDF"
+msgstr "Impussibil configurâ il PDF"
+
+#: src/add_pdf_dialog.rs:78
+msgid "Could not download PDF"
+msgstr "Impussibil discjamâ il PDF"
+
+#. TRANSLATORS Do NOT translate {path}, it is a variable name
+#: src/add_pdf_dialog.rs:104
+msgid "Make sure that {path} exists"
+msgstr "Controle che {path} al esisti"
+
+#: src/add_pdf_dialog.rs:185
+msgid "PDF Files"
+msgstr "Files PDF"
+
+#: src/add_pdf_dialog.rs:193
+msgid "Select a PDF"
+msgstr "Selezione un PDF"
+
+#. TODO Should this be translatable?
+#: src/citation_preview.rs:56
+msgid "Chicago"
+msgstr "Chicago"
+
+#: src/citation_preview.rs:57
+msgid "Harvard"
+msgstr "Hayward"
+
+#: src/citation_preview.rs:58
+msgid "Vancouver"
+msgstr "Vancouver"
+
+#. NOTE: Custom as in Custom Template.
+#: src/citation_preview.rs:60
+msgid "Custom"
+msgstr "Personalizât"
+
+#: src/citation_preview.rs:267 src/entry_list_row.rs:59 src/entry_page.rs:243
+msgid "Copied"
+msgstr "Copiât"
+
+#: src/citation_preview.rs:274
+msgid "Custom…"
+msgstr "Personalizât…"
+
+#: src/entry_page.rs:204
+msgid "Other…"
+msgstr "Altri…"
+
+#. TRANSLATORS Every citation has an identifier called key
+#: src/entry_page.rs:266
+msgid "Citation Key already exists"
+msgstr "La clâf di citazion e esist za"
+
+#: src/entry_page.rs:586
+msgid "PDF added"
+msgstr "PDF zontât"
+
+#: src/new_entry_dialog.rs:149
+msgid "Insert a BibTeX citation here"
+msgstr "Inserìs une citazion BibTeX achì"
+
+#: src/utils.rs:14
+msgid "Author"
+msgstr "Autôr"
+
+#: src/utils.rs:15
+msgid "Year"
+msgstr "An"
+
+#: src/utils.rs:16
+msgid "Title"
+msgstr "Titul"
+
+#: src/utils.rs:17
+msgid "Volume"
+msgstr "Volum"
+
+#: src/utils.rs:18
+msgid "Number"
+msgstr "Numar"
+
+#: src/utils.rs:19
+msgid "Pages"
+msgstr "Pagjinis"
+
+#: src/utils.rs:20
+msgid "Publisher"
+msgstr "Editôr"
+
+#: src/utils.rs:21
+msgid "Journal"
+msgstr "Riviste"
+
+#: src/utils.rs:22
+msgid "Address"
+msgstr "Recapit"
+
+#. TRANSLATORS Method of publication, see https://www.bibtex.com/f/howpublished-field/
+#: src/utils.rs:24
+msgid "How Published"
+msgstr "Gjenar de publicazion"
+
+#: src/utils.rs:25
+msgid "Note"
+msgstr "Note"
+
+#: src/utils.rs:26
+msgid "Book Title"
+msgstr "Titul dal libri"
+
+#: src/utils.rs:27
+msgid "Series"
+msgstr "Colezion"
+
+#: src/utils.rs:28
+msgid "Archive Prefix"
+msgstr "Prefìs dal archivi"
+
+#. TRANSLATORS As in digital print
+#: src/utils.rs:30
+msgid "ePrint"
+msgstr "ePrint"
+
+#. TRANSLATORS Identifier used by arXiv, see https://arxiv.org/help/hypertex/bibstyles
+#: src/utils.rs:32
+msgid "Primary Class"
+msgstr "Classe primarie"
+
+#: src/utils.rs:33
+msgid "Month"
+msgstr "Mês"
+
+#. TRANSLATORS As in chief editor
+#: src/utils.rs:35
+msgid "Editor"
+msgstr "Curadôr"
+
+#. TRANSLATORS As in association
+#: src/utils.rs:37
+msgid "Organization"
+msgstr "Organizazion"
+
+#: src/utils.rs:38
+msgid "School"
+msgstr "Scuele"
+
+#: src/utils.rs:39
+msgid "Institution"
+msgstr "Istituzion"
+
+#: src/window.rs:117
+msgid "Could not add entry"
+msgstr "Impussibil zontâ la vôs"
+
+#: src/window.rs:331 src/window.rs:356
+msgid "BibTeX Files"
+msgstr "Files BibTeX"
+
+#: src/window.rs:365
+msgid "Create New Bibliography"
+msgstr "Cree gnove bibliografie"
+
+#: src/window.rs:366
+msgid "_Create"
+msgstr "_Cree"
+
+#. TRANSLATORS This a file name, .bib will be appended e.g.
+#. bibliography.bib, please only use alphabetic characters.
+#: src/window.rs:369
+msgid "bibliography"
+msgstr "bibliografie"
+
+#: src/window.rs:473
+msgid "Remove From Recent Files"
+msgstr "Gjave dai files resints"
+
+#: src/window.rs:513
+msgid "An entry with the given citation key already exists"
+msgstr "Une vôs cu la clâf di citazion indicade e esist za"
+
+#: src/window.rs:528
+msgid "Bibliography saved"
+msgstr "Bibliografie salvade"
+
+#: src/window.rs:581
+msgid "Citation Deleted"
+msgstr "Citazion eliminade"
+
+#: src/window.rs:583
+msgid "Undo"
+msgstr "Disfe"
+
+#: src/window.rs:626
+msgid "translator-credits"
+msgstr "Fabio Tomat <f.t.public@gmail.com>"
+
+#. NOTE Dialog title which informs the user about unsaved changes.
+#: src/window.rs:638
+msgid "Unsaved Changes"
+msgstr "Modifichis no salvadis"
+
+#. NOTE Dialog subtitle which informs the user about unsaved changes more detailed.
+#: src/window.rs:641
+msgid "Do you want to write all changes to the safe?"
+msgstr "Desideristu salvâ dutis lis modifichis fatis?"
+
+#: src/window.rs:645
+msgid "_Quit Without Saving"
+msgstr "_Jes cence salvâ"
+
+#: src/window.rs:646
+msgid "_Don't Quit"
+msgstr "_No sta jessî"
+
+#: src/window.rs:647
+msgid "_Save and Quit"
+msgstr "_Salve e jes"
+
+#~ msgid "Maximiliano Sandoval"
+#~ msgstr "Maximiliano Sandoval"
+
+#~ msgid "Back"
+#~ msgstr "Indaûr"

@@ -1,0 +1,590 @@
+# Vietnamese translation for citations.
+# This file is distributed under the same license as the citations package.
+# Ngọc Quân Trần <vnwildman@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: citations master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/citations/issues\n"
+"POT-Creation-Date: 2022-06-01 20:23+0000\n"
+"PO-Revision-Date: 2022-06-02 15:47+0700\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 3.38.0\n"
+
+#: cratebibtex/src/entry_type.rs:108
+msgid "Article"
+msgstr "Bài viết"
+
+#: cratebibtex/src/entry_type.rs:109
+msgid "Book"
+msgstr "Sách"
+
+#: cratebibtex/src/entry_type.rs:110
+msgid "Misc"
+msgstr "Linh tinh"
+
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:112
+msgid "In Proceedings"
+msgstr "Biên bản hội thảo"
+
+#: cratebibtex/src/entry_type.rs:113
+msgid "Unpublished"
+msgstr "Chưa xuất bản"
+
+#. NOTE As in online source
+#: cratebibtex/src/entry_type.rs:115
+msgid "Online"
+msgstr "Trực tuyến"
+
+#. NOTE As in other kind of source
+#: cratebibtex/src/entry_type.rs:117
+msgid "Other"
+msgstr "Khác"
+
+#: cratebibtex/src/entry_type.rs:118
+msgid "Booklet"
+msgstr "Sách nhỏ"
+
+#: cratebibtex/src/entry_type.rs:119
+msgid "Conference"
+msgstr "Hội thảo"
+
+#: cratebibtex/src/entry_type.rs:120
+msgid "In Book"
+msgstr "Trong sách"
+
+#: cratebibtex/src/entry_type.rs:121
+msgid "In Collection"
+msgstr "Trong bộ sưu tập"
+
+#. NOTE As in instruction manual
+#: cratebibtex/src/entry_type.rs:123
+msgid "Manual"
+msgstr "Thủ công"
+
+#: cratebibtex/src/entry_type.rs:124
+msgid "Master Thesis"
+msgstr "Luận văn thạc sỹ"
+
+#: cratebibtex/src/entry_type.rs:125
+msgid "PhD. Thesis"
+msgstr "Luận văn tiến sĩ"
+
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:127
+msgid "Proceedings"
+msgstr "Đang xử lý"
+
+#: cratebibtex/src/entry_type.rs:128
+msgid "Tech Report"
+msgstr "Báo cáo kỹ thuật"
+
+#. NOTE Plain as in Plain Text
+#: cratebibtex/src/format.rs:51
+msgid "Plain"
+msgstr "Thường"
+
+#. NOTE: This is the app name
+#: data/org.gnome.World.Citations.desktop.in.in:3
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:7 src/main.rs:39
+msgid "Citations"
+msgstr "Trích dẫn"
+
+#: data/org.gnome.World.Citations.desktop.in.in:4
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:8 src/window.rs:590
+msgid "Manage your bibliography"
+msgstr "Quản lý thư tịch của bạn"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.World.Citations.desktop.in.in:10
+msgid "bibliography;citing;literature;BibTeX;LaTeX;TeX;"
+msgstr "bibliography;citing;literature;BibTeX;LaTeX;TeX;trích dẫn;trich dan;"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:6
+msgid "Window width"
+msgstr "Chiều rộng cửa sổ"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:10
+msgid "Window height"
+msgstr "Độ cao cửa sổ"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:14
+msgid "Window maximized state"
+msgstr "Trạng thái phóng to cửa sổ"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:18
+msgid "List of paths of recent files"
+msgstr "Danh sách các tập tin mới dùng"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:22
+#: data/org.gnome.World.Citations.gschema.xml.in:26
+msgid "Default template for book citation"
+msgstr "Mẫu mặc định cho trích dẫn sách"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:30
+msgid "Default template kind for citations"
+msgstr "Kiểu mẫu mặc định cho trích dẫn"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:34
+msgid "Default template format for citations"
+msgstr "Định dạng mẫu mặc định cho trích dẫn"
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:10
+msgid "Manage your bibliographies using the BibTeX format."
+msgstr "Quản lý thư tịch của bạn sử dụng định dạng BibTeX."
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:15
+msgid "Main window"
+msgstr "Cửa sổ chính"
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:52
+msgid "Maximiliano Sandoval"
+msgstr "Maximiliano Sandoval"
+
+#: data/resources/ui/citation_preview.ui:25
+msgid "Custom Citation Format"
+msgstr "Định dạng trích dẫn tự chọn"
+
+#: data/resources/ui/citation_preview.ui:70
+msgid "Citation"
+msgstr "Trích dẫn"
+
+#: data/resources/ui/citation_preview.ui:116
+#: data/resources/ui/entry_page.ui:113
+msgid "Copy"
+msgstr "Sao chép"
+
+#: data/resources/ui/citation_preview.ui:151
+msgid "Custom Template"
+msgstr "Mẫu tự chọn"
+
+#: data/resources/ui/citation_preview.ui:167
+msgid ""
+"Write a custom format for your citations, to insert the contents of a tag "
+"<tt>sometag</tt> write <tt>%SOMETAG%</tt>. Basic markdown syntax for bold "
+"and italics is supported.\n"
+"            "
+msgstr ""
+"Ghi một định dạng tự chọn cho trích dẫn của bạn, để chèn những nội dung của "
+"một thẻ <tt>một_số_thẻ</tt> ghi <tt>%SOMETAG%</tt>. Các cú pháp đánh dấu cơ "
+"bản cho đậm và nghiêng được hỗ trợ.\n"
+"            "
+
+#: data/resources/ui/citation_preview.ui:173
+msgid "Example:"
+msgstr "Ví dụ:"
+
+#. Empty state widget
+#: data/resources/ui/entry_list.ui:9
+msgid "No Citations"
+msgstr "Không trích dẫn"
+
+#: data/resources/ui/entry_list.ui:10
+msgid "Create a new citation"
+msgstr "Tạo một trích dẫn mới"
+
+#: data/resources/ui/entry_page.ui:13
+msgid "No Citation Selected"
+msgstr "Chưa chọn Trích dẫn nào"
+
+#: data/resources/ui/entry_page.ui:82
+msgid "Citation _Type"
+msgstr "_Kiểu trích dẫn"
+
+#: data/resources/ui/entry_page.ui:98
+msgid "_Other Citation Type"
+msgstr "Kiểu Trích dẫn _khác"
+
+#: data/resources/ui/entry_page.ui:105
+msgid "_Citation Key"
+msgstr "Khóa trí_ch dẫn"
+
+#: data/resources/ui/entry_page.ui:124
+msgid "_Author"
+msgstr "Tác _giả"
+
+#: data/resources/ui/entry_page.ui:130
+msgid "_Title"
+msgstr "_Tựa đề"
+
+#: data/resources/ui/entry_page.ui:136
+msgid "_Year"
+msgstr "_Năm"
+
+#: data/resources/ui/entry_page.ui:148 src/entry_page.rs:419
+msgid "Open in Browser"
+msgstr "Mở trong trình duyệt"
+
+#: data/resources/ui/entry_page.ui:168
+msgid "Other Properties"
+msgstr "Các thuộc tính khác"
+
+#. Translators: Selects a PDF file for the citation
+#: data/resources/ui/entry_page.ui:198
+msgid "Select PDF"
+msgstr "Chọn PDF"
+
+#: data/resources/ui/entry_page.ui:199
+msgid "Copy file to bibliography folder"
+msgstr "Sao chép tập tin vào thư mục thư tịch"
+
+#: data/resources/ui/entry_page.ui:203
+msgid "From file"
+msgstr "Từ tập tin"
+
+#: data/resources/ui/entry_page.ui:220
+msgid "From URL"
+msgstr "Từ URL"
+
+#: data/resources/ui/entry_page.ui:239
+msgid "Open PDF"
+msgstr "Mở PDF"
+
+#: data/resources/ui/entry_page.ui:244
+msgid "Delete PDF"
+msgstr "Xóa PDF"
+
+#: data/resources/ui/entry_page.ui:267
+msgid "PDF Preview"
+msgstr "Xem trước PDF"
+
+#: data/resources/ui/new_entry_dialog.ui:27
+msgid "_Cancel"
+msgstr "_Thôi"
+
+#: data/resources/ui/new_entry_dialog.ui:34
+msgid "C_reate"
+msgstr "Tạ_o"
+
+#: data/resources/ui/new_entry_dialog.ui:49
+msgid "New"
+msgstr "Mới"
+
+#: data/resources/ui/new_entry_dialog.ui:68
+msgid "Citation Key"
+msgstr "Khóa Trích dẫn"
+
+#: data/resources/ui/new_entry_dialog.ui:73
+msgid "Citation Type"
+msgstr "Kiểu Trích dẫn"
+
+#. BibTeX is a proper name
+#: data/resources/ui/new_entry_dialog.ui:93
+msgid "From BibTeX"
+msgstr "Từ BibTeX"
+
+#: data/resources/ui/shortcuts.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Chung"
+
+#: data/resources/ui/shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Hiện phím tắt"
+
+#: data/resources/ui/shortcuts.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Thoát"
+
+#: data/resources/ui/shortcuts.ui:28
+msgctxt "shortcut window"
+msgid "Bibliography"
+msgstr "Thư tịch"
+
+#: data/resources/ui/shortcuts.ui:31
+msgctxt "shortcut window"
+msgid "Open"
+msgstr "Mở"
+
+#: data/resources/ui/shortcuts.ui:37
+msgctxt "shortcut window"
+msgid "Save"
+msgstr "Ghi"
+
+#: data/resources/ui/shortcuts.ui:43
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: data/resources/ui/window.ui:6
+msgid "_Create New Bibliography"
+msgstr "Tạ_o một thư tịch mới"
+
+#: data/resources/ui/window.ui:10 data/resources/ui/window.ui:33
+msgid "_Open"
+msgstr "_Mở"
+
+#: data/resources/ui/window.ui:17 data/resources/ui/window.ui:40
+msgid "_Keyboard Shortcuts"
+msgstr "_Phím tắt"
+
+#. About dialog
+#: data/resources/ui/window.ui:21 data/resources/ui/window.ui:44
+msgid "_About Citations"
+msgstr "_Giới thiệu Trích dẫn"
+
+#: data/resources/ui/window.ui:29
+msgid "_Save"
+msgstr "_Lưu"
+
+#: data/resources/ui/window.ui:52
+msgid "_Search in Google Scholar"
+msgstr "Tìm _kiếm trong Google Scholar"
+
+#. arXiv is a proper name
+#: data/resources/ui/window.ui:56
+msgid "_Search in arXiv"
+msgstr "_Tìm kiếm trong arXiv"
+
+#: data/resources/ui/window.ui:62
+msgid "_Delete"
+msgstr "_Xoá"
+
+#: data/resources/ui/window.ui:83 data/resources/ui/window.ui:108
+#: data/resources/ui/window.ui:177
+msgid "Main Menu"
+msgstr "Trình đơn chính"
+
+#. BibTeX is a proper name
+#: data/resources/ui/window.ui:92
+msgid "Open a BibTeX File"
+msgstr "Mở một tập tin BibTeX"
+
+#: data/resources/ui/window.ui:128
+msgid "Recent Files"
+msgstr "Tập tin mới dùng"
+
+#: data/resources/ui/window.ui:170
+msgid "Add New Citation"
+msgstr "Thêm một trích dẫn mới"
+
+#: data/resources/ui/window.ui:183
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: data/resources/ui/window.ui:234
+msgid "Back"
+msgstr "Quay lại"
+
+#: data/resources/ui/window.ui:243
+msgid "Secondary Menu"
+msgstr "Trình đơn con"
+
+#. TODO Should this be translatable?
+#: src/citation_preview.rs:56
+msgid "Chicago"
+msgstr "Chicago"
+
+#: src/citation_preview.rs:57
+msgid "Harvard"
+msgstr "Harvard"
+
+#: src/citation_preview.rs:58
+msgid "Vancouver"
+msgstr "Vancouver"
+
+#. NOTE: Custom as in Custom Template.
+#: src/citation_preview.rs:60
+msgid "Custom"
+msgstr "Tự chọn"
+
+#: src/citation_preview.rs:160 src/entry_page.rs:183
+msgid "Copied"
+msgstr "Đã sao chép"
+
+#: src/citation_preview.rs:167
+msgid "Custom…"
+msgstr "Tự chọn…"
+
+#: src/entry_page.rs:107
+msgid "PDF Downloaded"
+msgstr "PDF đã tải về"
+
+#: src/entry_page.rs:144
+msgid "Other…"
+msgstr "Khác…"
+
+#. TRANSLATORS Every citation has an identifier called key
+#: src/entry_page.rs:206
+msgid "Citation Key already exists"
+msgstr "Khóa trích dẫn đã có rồi"
+
+#: src/entry_page.rs:474
+msgid "Bibliography folder not set"
+msgstr "Chưa đặt thư mục Thư tịch"
+
+#. NOTE Do not translate the path.
+#: src/entry_page.rs:478
+msgid "Make sure ~/Documents/Bibliography exists"
+msgstr "Hãy đảm bảo là ~/Documents/Bibliography có tồn tại"
+
+#: src/entry_page.rs:540
+msgid "PDF Files"
+msgstr "Các tập tin PDF"
+
+#. TODO Use placeholder-text see
+#. https://gitlab.gnome.org/GNOME/gtk/-/merge_requests/4771
+#: src/new_entry_dialog.rs:127
+msgid "Insert a BibTeX citation here"
+msgstr "Chèn một trích dẫn BibTeX vào đây"
+
+#: src/utils.rs:20
+msgid "Author"
+msgstr "Tác giả"
+
+#: src/utils.rs:21
+msgid "Year"
+msgstr "Năm"
+
+#: src/utils.rs:22
+msgid "Title"
+msgstr "Tước"
+
+#: src/utils.rs:23
+msgid "Volume"
+msgstr "Âm lượng"
+
+#: src/utils.rs:24
+msgid "Number"
+msgstr "Số"
+
+#: src/utils.rs:25
+msgid "Pages"
+msgstr "Trang"
+
+#: src/utils.rs:26
+msgid "Publisher"
+msgstr "Nhà xuất bản"
+
+#: src/utils.rs:27
+msgid "Journal"
+msgstr "Nhật ký"
+
+#: src/utils.rs:28
+msgid "Address"
+msgstr "Địa chỉ"
+
+#. TRANSLATORS Method of publication, see https://www.bibtex.com/f/howpublished-field/
+#: src/utils.rs:30
+msgid "How Published"
+msgstr "Xuất bản bằng cách nào"
+
+#: src/utils.rs:31
+msgid "Note"
+msgstr "Ghi chú"
+
+#: src/utils.rs:32
+msgid "Book Title"
+msgstr "Tựa sách"
+
+#: src/utils.rs:33
+msgid "Series"
+msgstr "Sê-ri"
+
+#: src/utils.rs:34
+msgid "Archive Prefix"
+msgstr "Tiền tố kho nén"
+
+#. TRANSLATORS As in digital print
+#: src/utils.rs:36
+msgid "ePrint"
+msgstr "ePrint"
+
+#. TRANSLATORS Identifier used by arXiv, see https://arxiv.org/help/hypertex/bibstyles
+#: src/utils.rs:38
+msgid "Primary Class"
+msgstr "Lớp sơ cấp"
+
+#: src/utils.rs:39
+msgid "Month"
+msgstr "Tháng"
+
+#. TRANSLATORS As in chief editor
+#: src/utils.rs:41
+msgid "Editor"
+msgstr "Bộ soạn thảo"
+
+#. TRANSLATORS As in association
+#: src/utils.rs:43
+msgid "Organization"
+msgstr "Tổ chức"
+
+#: src/utils.rs:44
+msgid "School"
+msgstr "Trường học"
+
+#: src/utils.rs:45
+msgid "Institution"
+msgstr "Tổ chức xã hội"
+
+#: src/window.rs:315 src/window.rs:344
+msgid "Bibtex Files"
+msgstr "Tập tin Bibtex"
+
+#: src/window.rs:336
+msgid "Create New Bibliography"
+msgstr "Tạo một thư tịch mới"
+
+#: src/window.rs:339
+msgid "Create"
+msgstr "Tạo"
+
+#: src/window.rs:492
+msgid "An entry with the given citation key already exists"
+msgstr "Mục tin với khóa trích dẫn đã có từ trước rồi"
+
+#: src/window.rs:507
+msgid "Bibliography saved"
+msgstr "Thư tịch đã được lưu"
+
+#: src/window.rs:547
+msgid "Citation Deleted"
+msgstr "Xóa Trích dẫn"
+
+#: src/window.rs:549
+msgid "Undo"
+msgstr "Hồi lại"
+
+#: src/window.rs:594
+msgid "translator-credits"
+msgstr "Nhóm Việt hóa GNOME <gnome-vi-list@gnome.org>"
+
+#. NOTE Dialog title which informs the user about unsaved changes.
+#: src/window.rs:611
+msgid "Unsaved Changes"
+msgstr "Thay đổi chưa lưu"
+
+#. NOTE Dialog subtitle which informs the user about unsaved changes more detailed.
+#: src/window.rs:615
+msgid "Do you want to write all changes to the safe?"
+msgstr "Bạn có muốn ghi tất cả các thay đổi vào két không?"
+
+#: src/window.rs:618
+msgid "_Quit Without Saving"
+msgstr "Thoát mà _Không Lưu lại"
+
+#: src/window.rs:624
+msgid "_Don't Quit"
+msgstr "Đừn_g Thoát"
+
+#: src/window.rs:629
+msgid "_Save and Quit"
+msgstr "_Lưu và Thoát"
+
+#~ msgid "Gnome;GTK;"
+#~ msgstr "Gnome;GTK;"
+
+#~ msgid "Or drag-and-drop a file"
+#~ msgstr "Hoặc kéo và thả tập tin vào đây"
+
+#~ msgid "Entry Deleted"
+#~ msgstr "Mục tin đã bị xóa"

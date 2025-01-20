@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Maximiliano Sandoval 2022 <msandova@gnome.org> -->
+<component type="desktop-application">
+  <id>@app-id@</id>
+  <metadata_license>CC0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Citations</name>
+  <summary>Manage your bibliography</summary>
+  <description>
+    <p>Manage your bibliographies using the BibTeX format.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://gitlab.gnome.org/World/citations/raw/master/data/screenshots/main_window.png</image>
+      <caption>Main window</caption>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://apps.gnome.org/Citations/</url>
+  <url type="contribute">https://welcome.gnome.org/app/Citations/</url>
+  <url type="bugtracker">https://gitlab.gnome.org/World/citations/issues</url>
+  <url type="translate">https://l10n.gnome.org/module/citations/</url>
+  <url type="vcs-browser">https://gitlab.gnome.org/World/citations</url>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="0.7.0" date="2024-09-19">
+      <description>
+        <p>Minor Release.</p>
+        <ul>
+          <li>Add url field to online entries</li>
+          <li>Update dependencies and bugfixes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.4" date="2023-04-05">
+      <description>
+        <p>Bugfix Release.</p>
+        <ul>
+          <li>Fix crash on tech reports</li>
+          <li>Improved stability</li>
+          <li>Fix create entry button sensibility</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.3" date="2023-03-20">
+      <description>
+        <p>Minor Release.</p>
+        <ul>
+          <li>Use newer libadwaita widgets</li>
+          <li>Add new entries from DOI</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.2" date="2023-09-28">
+      <description>
+        <p>Minor Release.</p>
+        <ul>
+          <li>Improved handling of long titles or author names in sidebar</li>
+          <li>Open .bib files</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.1" date="2023-09-28"/>
+    <release version="0.6.0" date="2023-09-20">
+      <description>
+        <p>Use newer widgets from libadwaita.</p>
+        <ul>
+          <li>Improved accessibility</li>
+          <li>Improved adaptiveness</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.2" date="2023-04-03"/>
+    <release version="0.5.1" date="2022-09-28"/>
+    <release version="0.5.0" date="2022-08-04">
+      <description>
+        Minor release with some design improvements and newer widgets from
+        libadwaita.
+      </description>
+    </release>
+    <release version="0.4.0" date="2022-06-09">
+      <description>
+        <p>Added some new features:</p>
+        <ul>
+          <li>New translations</li>
+          <li>PDF Preview</li>
+          <li>New citation from BibTeX</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.3.0" date="2022-05-19">
+      <description>
+        <p>Added some new features:</p>
+        <ul>
+          <li>New Icon</li>
+          <li>New entries from BibTeX</li>
+          <li>Set a PDF file for a citation</li>
+          <li>Ask to save file on close</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.2.1" date="2022-05-07"/>
+    <release version="0.2.0" date="2022-05-07"/>
+    <release version="0.1.0" date="2022-05-03">
+      <description>
+        <p>Initial alpha release of Citations.</p>
+      </description>
+    </release>
+  </releases>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </recommends>
+  <!-- developer_name tag deprecated with Appstream 1.0 -->
+  <developer_name translatable="no">Maximiliano Sandoval</developer_name>
+  <developer id="io.gitlab.msandova">
+    <name translatable="no">Maximiliano Sandoval</name>
+  </developer>
+  <update_contact>msandova@gnome.org</update_contact>
+  <translation type="gettext">@gettext-package@</translation>
+  <launchable type="desktop-id">@app-id@.desktop</launchable>
+  <provides>
+    <mediatype>text/x-bibtex</mediatype>
+  </provides>
+  <branding>
+    <!-- Purple 1 and Blue 4 -->
+    <color type="primary" scheme_preference="light">#dc8add</color>
+    <color type="primary" scheme_preference="dark">#1c71d8</color>
+  </branding>
+</component>

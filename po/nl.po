@@ -1,0 +1,707 @@
+# Dutch translation for citations.
+# Copyright (C) 2022 citations's COPYRIGHT HOLDER
+# This file is distributed under the same license as the citations package.
+# Philip Goto <Philip.goto@gmail.com>, 2022.
+# Nathan Follens <nfollens@gnome.org>, 2022-2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: citations master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/citations/-/issues\n"
+"POT-Creation-Date: 2024-10-16 18:07+0000\n"
+"PO-Revision-Date: 2024-10-30 18:31+0100\n"
+"Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
+"Language-Team: GNOME-NL https://matrix.to/#/#nl:gnome.org\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: cratebibtex/src/entry_type.rs:117
+msgid "Article"
+msgstr "Artikel"
+
+#: cratebibtex/src/entry_type.rs:118
+msgid "Book"
+msgstr "Boek"
+
+#: cratebibtex/src/entry_type.rs:119
+msgid "Misc"
+msgstr "Diverse"
+
+# In conferentiepapers? - Nathan
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:121
+msgid "In Proceedings"
+msgstr "In congresbundel"
+
+#: cratebibtex/src/entry_type.rs:122
+msgid "Unpublished"
+msgstr "Niet gepubliceerd"
+
+#. NOTE As in online source
+#: cratebibtex/src/entry_type.rs:124
+msgid "Online"
+msgstr "Online"
+
+#. NOTE As in other kind of source
+#: cratebibtex/src/entry_type.rs:126
+msgid "Other"
+msgstr "Anders"
+
+#: cratebibtex/src/entry_type.rs:127
+msgid "Booklet"
+msgstr "Brochure"
+
+#: cratebibtex/src/entry_type.rs:128
+msgid "Conference"
+msgstr "Conferentie"
+
+#: cratebibtex/src/entry_type.rs:129
+msgid "In Book"
+msgstr "In boek"
+
+#: cratebibtex/src/entry_type.rs:130
+msgid "In Collection"
+msgstr "In collectie"
+
+#. NOTE As in instruction manual
+#: cratebibtex/src/entry_type.rs:132
+msgid "Manual"
+msgstr "Handleiding"
+
+#: cratebibtex/src/entry_type.rs:133
+msgid "Master's Thesis"
+msgstr "Masterscriptie/masterproef"
+
+#: cratebibtex/src/entry_type.rs:134
+msgid "PhD Thesis"
+msgstr "PhD-scriptie/doctoraat"
+
+# Conferentiepapers? - Nathan
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:136
+msgid "Proceedings"
+msgstr "Congresbundel"
+
+#: cratebibtex/src/entry_type.rs:137
+msgid "Tech Report"
+msgstr "Technisch verslag"
+
+#. NOTE Plain as in Plain Text
+#: cratebibtex/src/format.rs:52
+msgid "Plain"
+msgstr "Platte tekst"
+
+#. NOTE: This is the app name
+#: data/org.gnome.World.Citations.desktop.in.in:3
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:7
+#: data/resources/ui/window.ui:69 src/main.rs:42 src/window.rs:619
+msgid "Citations"
+msgstr "Citaties"
+
+#: data/org.gnome.World.Citations.desktop.in.in:4
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:8 src/window.rs:621
+msgid "Manage your bibliography"
+msgstr "Beheer uw bibliografie"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.World.Citations.desktop.in.in:10
+msgid "bibliography;citing;literature;BibTeX;LaTeX;TeX;"
+msgstr ""
+"bibliography;citing;literature;BibTeX;LaTeX;TeX;bibliografie;referenties;"
+"citeren;citaten;literatuur;"
+
+#: data/org.gnome.World.Citations.desktop.in.in:19
+msgid "New Window"
+msgstr "Nieuw venster"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:6
+msgid "Window width"
+msgstr "Vensterbreedte"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:10
+msgid "Window height"
+msgstr "Vensterhoogte"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:14
+msgid "Window maximized state"
+msgstr "Maximalisatiestaat van venster"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:18
+msgid "List of paths of recent files"
+msgstr "Lijst met paden van recente bestanden"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:22
+#: data/org.gnome.World.Citations.gschema.xml.in:26
+msgid "Default template for book citation"
+msgstr "Standaardsjabloon voor boekcitaat"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:30
+msgid "Default template kind for citations"
+msgstr "Standaard sjabloontype voor citaties"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:34
+msgid "Default template format for citations"
+msgstr "Standaard sjabloonformaat voor citaties"
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:10
+msgid "Manage your bibliographies using the BibTeX format."
+msgstr "Beheer uw bibliografieën met het BibTeX-formaat."
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:15
+msgid "Main window"
+msgstr "Hoofdvenster"
+
+#. Translators: Selects a PDF file for the citation
+#: data/resources/ui/add_pdf_dialog.ui:8 data/resources/ui/entry_page.ui:268
+msgid "Add PDF"
+msgstr "Pdf toevoegen"
+
+#: data/resources/ui/add_pdf_dialog.ui:47
+msgid "Bibliography folder not set"
+msgstr "Bibliografiemap niet ingesteld"
+
+#: data/resources/ui/add_pdf_dialog.ui:65
+msgid ""
+"Creates a copy of the selected pdf and stores it in your Bibliography folder."
+msgstr ""
+"Maakt een kopie van het geselecteerde pdf-bestand en slaat het op in uw "
+"bibliografiemap."
+
+#: data/resources/ui/add_pdf_dialog.ui:80
+msgid "Add From File…"
+msgstr "Toevoegen uit bestand…"
+
+#: data/resources/ui/add_pdf_dialog.ui:88
+msgid "Add From URL"
+msgstr "Toevoegen uit URL"
+
+#: data/resources/ui/add_pdf_dialog.ui:94
+msgid "Download…"
+msgstr "Downloaden…"
+
+#: data/resources/ui/citation_preview.ui:15
+msgid "Custom Citation Format"
+msgstr "Aangepast citatieformaat"
+
+#: data/resources/ui/citation_preview.ui:50
+msgid "Citation"
+msgstr "Citatie"
+
+#: data/resources/ui/citation_preview.ui:94 data/resources/ui/entry_page.ui:113
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: data/resources/ui/citation_preview.ui:137
+msgid "Custom Template"
+msgstr "Aangepast sjabloon"
+
+#: data/resources/ui/citation_preview.ui:153
+msgid ""
+"Write a custom format for your citations, to insert the contents of a tag "
+"<tt>sometag</tt> write <tt>%SOMETAG%</tt>. Basic markdown syntax for bold "
+"and italics is supported.\n"
+"            "
+msgstr ""
+"Maak een aangepast formaat voor uw citaties. Om de inhoud van een veld "
+"<tt>veld</tt> te gebruiken, typt u <tt>%SOMETAG%</tt>. Basismarkdownsyntaxis "
+"voor vet- en schuingedrukte tekst wordt ondersteund.\n"
+"            "
+
+#: data/resources/ui/citation_preview.ui:159
+msgid "Example:"
+msgstr "Voorbeeld:"
+
+#. TRANSLATORS Empty state widget
+#: data/resources/ui/entry_list.ui:9
+msgid "No Citations"
+msgstr "Geen citaties"
+
+#: data/resources/ui/entry_list.ui:10
+msgid "Create a new citation"
+msgstr "Maak een nieuwe citatie aan"
+
+#: data/resources/ui/entry_list_row.ui:90
+msgid "_Open PDF"
+msgstr "Pdf _openen"
+
+#: data/resources/ui/entry_list_row.ui:94
+msgid "_Copy Key"
+msgstr "Sleutel _kopiëren"
+
+#: data/resources/ui/entry_list_row.ui:100 data/resources/ui/window.ui:61
+msgid "_Delete"
+msgstr "_Verwijderen"
+
+#: data/resources/ui/entry_page.ui:13
+msgid "No Citation Selected"
+msgstr "Geen citatie geselecteerd"
+
+#: data/resources/ui/entry_page.ui:82
+msgid "Citation _Type"
+msgstr "Citatie_type"
+
+#: data/resources/ui/entry_page.ui:98
+msgid "_Other Citation Type"
+msgstr "An_der citatietype"
+
+#: data/resources/ui/entry_page.ui:105
+msgid "_Citation Key"
+msgstr "_Citatiesleutel"
+
+#: data/resources/ui/entry_page.ui:124
+msgid "_Author"
+msgstr "_Auteur"
+
+#: data/resources/ui/entry_page.ui:130
+msgid "_Title"
+msgstr "_Titel"
+
+#: data/resources/ui/entry_page.ui:136
+msgid "_Year"
+msgstr "_Jaar"
+
+#: data/resources/ui/entry_page.ui:152 src/entry_page.rs:400
+msgid "Open in Browser"
+msgstr "Openen in browser"
+
+#: data/resources/ui/entry_page.ui:168
+msgid "Other Properties"
+msgstr "Andere eigenschappen"
+
+#: data/resources/ui/entry_page.ui:182
+msgid "Abstract"
+msgstr "Abstract"
+
+#: data/resources/ui/entry_page.ui:186
+msgid "Copy Abstract"
+msgstr "Abstract kopiëren"
+
+#: data/resources/ui/entry_page.ui:218
+msgid "Notes"
+msgstr "Aantekeningen"
+
+#: data/resources/ui/entry_page.ui:222
+msgid "Copy Notes"
+msgstr "Aantekeningen kopiëren"
+
+#: data/resources/ui/entry_page.ui:286
+msgid "PDF"
+msgstr "Pdf"
+
+#: data/resources/ui/entry_page.ui:297 data/resources/ui/window.ui:10
+#: data/resources/ui/window.ui:107 data/resources/ui/window.ui:157
+msgid "_Open"
+msgstr "_Openen"
+
+#: data/resources/ui/entry_page.ui:310
+msgid "Delete PDF"
+msgstr "Pdf verwijderen"
+
+#: data/resources/ui/entry_page.ui:351
+msgid "Could not set PDF Preview"
+msgstr "Kon pdf-voorbeeld niet instellen"
+
+#: data/resources/ui/new_entry_dialog.ui:7
+msgid "Add new Entry"
+msgstr "Nieuwe ingang toevoegen"
+
+#: data/resources/ui/new_entry_dialog.ui:18
+msgid "_Cancel"
+msgstr "_Annuleren"
+
+#: data/resources/ui/new_entry_dialog.ui:25
+msgid "C_reate"
+msgstr "Aan_maken"
+
+#: data/resources/ui/new_entry_dialog.ui:42
+msgid "New"
+msgstr "Nieuw"
+
+#: data/resources/ui/new_entry_dialog.ui:61
+msgid "Citation Key"
+msgstr "Citatiesleutel"
+
+#: data/resources/ui/new_entry_dialog.ui:68
+msgid "Citation Type"
+msgstr "Citatietype"
+
+#. TRANSLATORS BibTeX is a proper name
+#: data/resources/ui/new_entry_dialog.ui:88
+msgid "From BibTeX"
+msgstr "Uit BibTeX"
+
+#: data/resources/ui/new_entry_dialog.ui:107
+msgid "From DOI"
+msgstr "Uit DOI"
+
+#. TRANSLATORS DOI is a proper name
+#: data/resources/ui/new_entry_dialog.ui:118
+msgid "DOI"
+msgstr "DOI"
+
+#: data/resources/ui/shortcuts.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Algemeen"
+
+#: data/resources/ui/shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Sneltoetsen tonen"
+
+#: data/resources/ui/shortcuts.ui:20
+msgctxt "shortcut window"
+msgid "New Window"
+msgstr "Nieuw venster"
+
+#: data/resources/ui/shortcuts.ui:26
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Afsluiten"
+
+#: data/resources/ui/shortcuts.ui:34
+msgctxt "shortcut window"
+msgid "Bibliography"
+msgstr "Bibliografie"
+
+#: data/resources/ui/shortcuts.ui:37
+msgctxt "shortcut window"
+msgid "Open"
+msgstr "Openen"
+
+#: data/resources/ui/shortcuts.ui:43
+msgctxt "shortcut window"
+msgid "Save"
+msgstr "Opslaan"
+
+#: data/resources/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Zoeken"
+
+#: data/resources/ui/window.ui:6
+msgid "_Create New Bibliography"
+msgstr "Nieuwe bibliografie aan_maken"
+
+#: data/resources/ui/window.ui:17 data/resources/ui/window.ui:39
+msgid "_Keyboard Shortcuts"
+msgstr "Snel_toetsen"
+
+#. TRANSLATORS About dialog
+#: data/resources/ui/window.ui:21 data/resources/ui/window.ui:43
+msgid "_About Citations"
+msgstr "Over _Citaties"
+
+#: data/resources/ui/window.ui:29
+msgid "_Save"
+msgstr "Op_slaan"
+
+#: data/resources/ui/window.ui:33
+msgid "New _Window"
+msgstr "Nieuw _venster"
+
+#: data/resources/ui/window.ui:51
+msgid "_Search in Google Scholar"
+msgstr "_Zoeken in Google Scholar"
+
+#. TRANSLATORS arXiv is a proper name
+#: data/resources/ui/window.ui:55
+msgid "_Search in arXiv"
+msgstr "_Zoeken in arXiv"
+
+#: data/resources/ui/window.ui:90 data/resources/ui/window.ui:130
+#: data/resources/ui/window.ui:210
+msgid "Main Menu"
+msgstr "Hoofdmenu"
+
+#. TRANSLATORS BibTeX is a proper name
+#: data/resources/ui/window.ui:100
+msgid "Open a BibTeX File"
+msgstr "Open een BibTeX-bestand"
+
+#: data/resources/ui/window.ui:101
+msgid "Or drag-and-drop a file"
+msgstr "Of versleep een bestand naar hier"
+
+#: data/resources/ui/window.ui:139
+msgid "Manage your Citations"
+msgstr "Beheer uw citaties"
+
+#: data/resources/ui/window.ui:149
+msgid "Recent Files"
+msgstr "Recente bestanden"
+
+#: data/resources/ui/window.ui:192
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+#: data/resources/ui/window.ui:203
+msgid "Add New Citation"
+msgstr "Nieuwe citatie toevoegen"
+
+#: data/resources/ui/window.ui:217
+msgid "Search"
+msgstr "Zoeken"
+
+#: data/resources/ui/window.ui:231
+msgid "Search…"
+msgstr "Zoeken…"
+
+#: data/resources/ui/window.ui:251
+msgid "Content"
+msgstr "Inhoud"
+
+#: data/resources/ui/window.ui:261
+msgid "Secondary Menu"
+msgstr "Secundair menu"
+
+#: src/add_pdf_dialog.rs:58
+msgid "Could not set PDF"
+msgstr "Kon pdf niet instellen"
+
+#: src/add_pdf_dialog.rs:78
+msgid "Could not download PDF"
+msgstr "Kon pdf niet downloaden"
+
+# Moet ~/Documenten hier wel vertaald worden? - Philip
+# Ik heb het getest, ~/Documenten mag vertaald worden, maar /Bibliography niet. - Nathan
+#. TRANSLATORS Do NOT translate {path}, it is a variable name
+#: src/add_pdf_dialog.rs:105
+msgid "Make sure that {path} exists"
+msgstr "Zorg ervoor dat {path} bestaat"
+
+#: src/add_pdf_dialog.rs:193
+msgid "PDF Files"
+msgstr "Pdf-bestanden"
+
+#: src/add_pdf_dialog.rs:201
+msgid "Select a PDF"
+msgstr "Selecteer een pdf"
+
+#. TODO Should this be translatable?
+#: src/citation_preview.rs:56
+msgid "Chicago"
+msgstr "Chicago"
+
+#: src/citation_preview.rs:57
+msgid "Harvard"
+msgstr "Harvard"
+
+#: src/citation_preview.rs:58
+msgid "Vancouver"
+msgstr "Vancouver"
+
+#. NOTE: Custom as in Custom Template.
+#: src/citation_preview.rs:60
+msgid "Custom"
+msgstr "Aangepast"
+
+#: src/citation_preview.rs:266 src/entry_list_row.rs:59 src/entry_page.rs:233
+msgid "Copied"
+msgstr "Gekopieerd"
+
+#: src/citation_preview.rs:273
+msgid "Custom…"
+msgstr "Aangepast…"
+
+#: src/entry_list_row.rs:74
+msgid "Author not set"
+msgstr "Auteur niet ingesteld"
+
+#: src/entry_list_row.rs:85
+msgid "Title not set"
+msgstr "Titel niet ingesteld"
+
+#: src/entry_page.rs:204
+msgid "Other…"
+msgstr "Andere…"
+
+#. TRANSLATORS Every citation has an identifier called key
+#: src/entry_page.rs:252
+msgid "Citation Key already exists"
+msgstr "Citatiesleutel bestaat al"
+
+#: src/entry_page.rs:605
+msgid "PDF added"
+msgstr "Pdf toegevoegd"
+
+#: src/new_entry_dialog.rs:162
+msgid "Insert a BibTeX citation here"
+msgstr "Voeg hier een BibTeX-citatie in"
+
+#: src/utils.rs:14
+msgid "Author"
+msgstr "Auteur"
+
+#: src/utils.rs:15
+msgid "Year"
+msgstr "Jaar"
+
+#: src/utils.rs:16
+msgid "Title"
+msgstr "Titel"
+
+#: src/utils.rs:17
+msgid "Volume"
+msgstr "Deel"
+
+#: src/utils.rs:18
+msgid "Number"
+msgstr "Nummer"
+
+#: src/utils.rs:19
+msgid "Pages"
+msgstr "Pagina’s"
+
+#: src/utils.rs:20
+msgid "Publisher"
+msgstr "Uitgever"
+
+#: src/utils.rs:21
+msgid "Journal"
+msgstr "Tijdschrift"
+
+#: src/utils.rs:22
+msgid "Address"
+msgstr "Adres"
+
+#. TRANSLATORS Method of publication, see https://www.bibtex.com/f/howpublished-field/
+#: src/utils.rs:24
+msgid "How Published"
+msgstr "Hoe gepubliceerd"
+
+#: src/utils.rs:25
+msgid "Note"
+msgstr "Aantekening"
+
+#: src/utils.rs:26
+msgid "Book Title"
+msgstr "Boektitel"
+
+#: src/utils.rs:27
+msgid "Series"
+msgstr "Serie"
+
+#: src/utils.rs:28
+msgid "Archive Prefix"
+msgstr "Archiefvoorvoegsel"
+
+#. TRANSLATORS As in digital print
+#: src/utils.rs:30
+msgid "ePrint"
+msgstr "ePrint"
+
+#. TRANSLATORS Identifier used by arXiv, see https://arxiv.org/help/hypertex/bibstyles
+#: src/utils.rs:32
+msgid "Primary Class"
+msgstr "Primaire klasse"
+
+#: src/utils.rs:33
+msgid "Month"
+msgstr "Maand"
+
+#. TRANSLATORS As in chief editor
+#: src/utils.rs:35
+msgid "Editor"
+msgstr "Bewerker"
+
+#. TRANSLATORS As in association
+#: src/utils.rs:37
+msgid "Organization"
+msgstr "Organisatie"
+
+#: src/utils.rs:38
+msgid "School"
+msgstr "School"
+
+#: src/utils.rs:39
+msgid "Institution"
+msgstr "Institutie"
+
+#: src/window.rs:117
+msgid "Could not add entry"
+msgstr "Kon ingang niet toevoegen"
+
+#: src/window.rs:347 src/window.rs:372
+msgid "BibTeX Files"
+msgstr "BibTeX-bestanden"
+
+#: src/window.rs:381
+msgid "Create New Bibliography"
+msgstr "Nieuwe bibliografie aanmaken"
+
+#: src/window.rs:382
+msgid "_Create"
+msgstr "_Aanmaken"
+
+#. TRANSLATORS This a file name, .bib will be appended e.g.
+#. bibliography.bib, please only use alphabetic characters.
+#: src/window.rs:385
+msgid "bibliography"
+msgstr "bibliografie"
+
+#: src/window.rs:508
+msgid "An entry with the given citation key already exists"
+msgstr "Er bestaat al een ingang met de gegeven citatiesleutel"
+
+#: src/window.rs:523
+msgid "Bibliography saved"
+msgstr "Bibliografie opgeslagen"
+
+#: src/window.rs:576
+msgid "Citation Deleted"
+msgstr "Citatie verwijderd"
+
+#: src/window.rs:578
+msgid "Undo"
+msgstr "Ongedaan maken"
+
+#: src/window.rs:625
+msgid "translator-credits"
+msgstr ""
+"Philip Goto <philip.goto@gmail.com>\n"
+"Nathan Follens <nfollens@gnome.org>\n"
+"Meer info over GNOME-NL https://nl.gnome.org"
+
+#. NOTE Dialog title which informs the user about unsaved changes.
+#: src/window.rs:637
+msgid "Unsaved Changes"
+msgstr "Niet-opgeslagen wijzigingen"
+
+# Wat wordt er hier met "safe" bedoeld? - Philip
+#. NOTE Dialog subtitle which informs the user about unsaved changes more detailed.
+#: src/window.rs:640
+msgid "Do you want to write all changes to the safe?"
+msgstr "Wilt u alle wijzigingen opslaan in de kluis?"
+
+#: src/window.rs:644
+msgid "_Quit Without Saving"
+msgstr "_Sluiten zonder opslaan"
+
+#: src/window.rs:645
+msgid "_Don't Quit"
+msgstr "_Niet sluiten"
+
+#: src/window.rs:646
+msgid "_Save and Quit"
+msgstr "_Opslaan en sluiten"
+
+#: src/window.rs:689
+msgid "Remove From Recent Files"
+msgstr "Verwijderen uit recente bestanden"
+
+#~ msgid "Maximiliano Sandoval"
+#~ msgstr "Maximiliano Sandoval"
+
+#~ msgid "Back"
+#~ msgstr "Terug"
+
+#~ msgid "Copy file to bibliography folder"
+#~ msgstr "Kopiëer bestand naar de bibliografiemap"
+
+#~ msgid "Gnome;GTK;"
+#~ msgstr "bibliography;bibliografie;BibTeX;LaTeX;TeX;"

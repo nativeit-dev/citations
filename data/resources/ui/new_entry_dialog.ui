@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="NewEntryDialog" parent="AdwDialog">
+    <property name="width-request">360</property>
+    <property name="height-request">360</property>
+    <property name="content-height">270</property>
+    <property name="title" translatable="yes">Add new Entry</property>
+    <property name="default-widget">create_button</property>
+    <property name="focus-widget">entry_row</property>
+    <child>
+      <object class="AdwToolbarView">
+        <child type="top">
+          <object class="AdwHeaderBar">
+            <property name="show-end-title-buttons">False</property>
+            <property name="show-title">false</property>
+            <child>
+              <object class="GtkButton">
+                <property name="label" translatable="yes">_Cancel</property>
+                <property name="use-underline">True</property>
+                <property name="can-shrink">True</property>
+                <signal name="clicked" handler="on_cancel_clicked" swapped="true"/>
+              </object>
+            </child>
+            <child type="end">
+              <object class="GtkButton" id="create_button">
+                <property name="label" translatable="yes">C_reate</property>
+                <property name="use-underline">True</property>
+                <property name="sensitive">False</property>
+                <property name="can-shrink">True</property>
+                <signal name="clicked" handler="on_create_clicked" swapped="true"/>
+                <style>
+                  <class name="suggested-action"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwViewStack" id="view_stack">
+            <property name="vexpand">True</property>
+            <signal name="notify::visible-child" handler="on_stack_visible_child_notify" swapped="true"/>
+            <child>
+              <object class="AdwViewStackPage">
+                <property name="title" translatable="yes">New</property>
+                <property name="icon-name">list-add-symbolic</property>
+                <property name="name">new</property>
+                <property name="child">
+                  <object class="GtkBox">
+                    <property name="orientation">vertical</property>
+                    <property name="spacing">6</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <child>
+                      <object class="GtkListBox">
+                        <property name="selection-mode">none</property>
+                        <style>
+                          <class name="boxed-list"/>
+                        </style>
+                        <child>
+                          <object class="AdwEntryRow" id="entry_row">
+                            <property name="title" translatable="yes">Citation Key</property>
+                            <property name="activates-default">True</property>
+                            <signal name="notify::text" handler="on_entry_notify_text" swapped="true"/>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwComboRow" id="combo_row">
+                            <property name="title" translatable="yes">Citation Type</property>
+                            <property name="model">
+                              <object class="AdwEnumListModel">
+                                <property name="enum-type">EntryType</property>
+                              </object>
+                            </property>
+                            <property name="expression">
+                              <closure type="gchararray" function="entry_type_name"/>
+                            </property>
+                            <property name="selected">1</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwViewStackPage" id="bibtex_page">
+                <property name="title" translatable="yes" comments="TRANSLATORS BibTeX is a proper name">From BibTeX</property>
+                <property name="icon-name">document-new-symbolic</property>
+                <property name="name">from_bibtex</property>
+                <property name="child">
+                  <object class="GtkSourceView" id="source_view">
+                    <property name="hexpand">True</property>
+                    <property name="wrap_mode">word</property>
+                    <style>
+                      <class name="newentrydialog"/>
+                    </style>
+                    <accessibility>
+                      <relation name="labelled-by">bibtex_page</relation>
+                    </accessibility>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwViewStackPage" id="doi_page">
+                <property name="title" translatable="yes">From DOI</property>
+                <property name="icon-name">document-new-symbolic</property>
+                <property name="name">from_doi</property>
+                <property name="child">
+                  <object class="AdwPreferencesGroup">
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <child>
+                      <object class="AdwEntryRow" id="doi_row">
+                        <property name="title" translatable="yes" comments="TRANSLATORS DOI is a proper name">DOI</property>
+                        <property name="activates-default">True</property>
+                        <signal name="notify::text" handler="on_doi_notify_text" swapped="true"/>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child type="bottom">
+          <object class="AdwViewSwitcherBar">
+            <property name="stack">view_stack</property>
+            <property name="reveal">True</property>
+            <property name="valign">end</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

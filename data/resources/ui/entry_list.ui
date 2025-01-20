@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="EntryList" parent="AdwBin">
+    <child>
+      <object class="GtkStack" id="stack">
+        <child>
+          <object class="AdwStatusPage" id="empty_list">
+            <property name="icon-name">document-text-symbolic</property>
+            <property name="title" translatable="yes" comments="TRANSLATORS Empty state widget">No Citations</property>
+            <property name="description" translatable="yes">Create a new citation</property>
+            <style>
+              <class name="compact"/>
+            </style>
+          </object>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow" id="scrolled_window">
+            <child>
+              <object class="GtkListView" id="list_view">
+                <property name="single-click-activate">True</property>
+                <signal name="activate" handler="on_list_activate" swapped="yes"/>
+                <style>
+                  <class name="navigation-sidebar"/>
+                  <class name="padded-sidebar"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Citations
+Comment=Manage your bibliography
+Type=Application
+Exec=citations %F
+Terminal=false
+Categories=GNOME;GTK;Literature;Science;
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=bibliography;citing;literature;BibTeX;LaTeX;TeX;
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=@icon@
+StartupNotify=true
+MimeType=text/x-bibtex;
+Actions=new-window;
+
+[Desktop Action new-window]
+Exec=citations
+Name=New Window
+# TRANSLATORS: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=window-new

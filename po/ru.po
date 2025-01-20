@@ -1,0 +1,705 @@
+# Russian translation for citations.
+# Copyright (C) 2022 citations's COPYRIGHT HOLDER
+# This file is distributed under the same license as the citations package.
+# Sergej A. <sw@atrus.ru>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: citations master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/citations/-/issues\n"
+"POT-Creation-Date: 2024-10-16 18:07+0000\n"
+"PO-Revision-Date: 2024-10-27 16:16+0300\n"
+"Last-Translator: Artur So <arturios2005@mail.ru>\n"
+"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.5\n"
+
+#: cratebibtex/src/entry_type.rs:117
+msgid "Article"
+msgstr "Статья"
+
+#: cratebibtex/src/entry_type.rs:118
+msgid "Book"
+msgstr "Книга"
+
+#: cratebibtex/src/entry_type.rs:119
+msgid "Misc"
+msgstr "Разное"
+
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:121
+msgid "In Proceedings"
+msgstr "В трудах конференции"
+
+#: cratebibtex/src/entry_type.rs:122
+msgid "Unpublished"
+msgstr "Не опубликовано"
+
+#. NOTE As in online source
+#: cratebibtex/src/entry_type.rs:124
+msgid "Online"
+msgstr "Онлайн"
+
+#. NOTE As in other kind of source
+#: cratebibtex/src/entry_type.rs:126
+msgid "Other"
+msgstr "Другое"
+
+#: cratebibtex/src/entry_type.rs:127
+msgid "Booklet"
+msgstr "Буклет"
+
+#: cratebibtex/src/entry_type.rs:128
+msgid "Conference"
+msgstr "Конференция"
+
+#: cratebibtex/src/entry_type.rs:129
+msgid "In Book"
+msgstr "В книге"
+
+#: cratebibtex/src/entry_type.rs:130
+msgid "In Collection"
+msgstr "В коллекции"
+
+#. NOTE As in instruction manual
+#: cratebibtex/src/entry_type.rs:132
+msgid "Manual"
+msgstr "Руководство"
+
+#: cratebibtex/src/entry_type.rs:133
+msgid "Master's Thesis"
+msgstr "Магистерская диссертация"
+
+#: cratebibtex/src/entry_type.rs:134
+msgid "PhD Thesis"
+msgstr "Докторская диссертация"
+
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:136
+msgid "Proceedings"
+msgstr "Труды"
+
+#: cratebibtex/src/entry_type.rs:137
+msgid "Tech Report"
+msgstr "Технический отчёт"
+
+#. NOTE Plain as in Plain Text
+#: cratebibtex/src/format.rs:52
+msgid "Plain"
+msgstr "Простой текст"
+
+#. NOTE: This is the app name
+#: data/org.gnome.World.Citations.desktop.in.in:3
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:7
+#: data/resources/ui/window.ui:69 src/main.rs:42 src/window.rs:619
+msgid "Citations"
+msgstr "Цитаты"
+
+#: data/org.gnome.World.Citations.desktop.in.in:4
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:8 src/window.rs:621
+msgid "Manage your bibliography"
+msgstr "Управляйте своей библиографией"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.World.Citations.desktop.in.in:10
+msgid "bibliography;citing;literature;BibTeX;LaTeX;TeX;"
+msgstr ""
+"bibliography;citing;literature;BibTeX;LaTeX;TeX;библиография;цитирование;"
+"цитата;литература;"
+
+#: data/org.gnome.World.Citations.desktop.in.in:19
+msgid "New Window"
+msgstr "Новое окно"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:6
+msgid "Window width"
+msgstr "Ширина окна"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:10
+msgid "Window height"
+msgstr "Высота окна"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:14
+msgid "Window maximized state"
+msgstr "Состояние развернутого окна"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:18
+msgid "List of paths of recent files"
+msgstr "Список путей к недавним файлам"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:22
+#: data/org.gnome.World.Citations.gschema.xml.in:26
+msgid "Default template for book citation"
+msgstr "Шаблон по умолчанию для цитирования книги"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:30
+msgid "Default template kind for citations"
+msgstr "Тип шаблона по умолчанию для цитирования"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:34
+msgid "Default template format for citations"
+msgstr "Формат шаблона по умолчанию для цитирования"
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:10
+msgid "Manage your bibliographies using the BibTeX format."
+msgstr "Управляйте своими библиографиями, используя формат BibTeX."
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:15
+msgid "Main window"
+msgstr "Главное окно"
+
+#. Translators: Selects a PDF file for the citation
+#: data/resources/ui/add_pdf_dialog.ui:8 data/resources/ui/entry_page.ui:268
+msgid "Add PDF"
+msgstr "Добавить PDF"
+
+#: data/resources/ui/add_pdf_dialog.ui:47
+msgid "Bibliography folder not set"
+msgstr "Папка библиографии не установлена"
+
+#: data/resources/ui/add_pdf_dialog.ui:65
+msgid ""
+"Creates a copy of the selected pdf and stores it in your Bibliography folder."
+msgstr "Создает копию выбранного pdf и сохраняет ее в папке библиографии."
+
+#: data/resources/ui/add_pdf_dialog.ui:80
+msgid "Add From File…"
+msgstr "Добавить из файла…"
+
+#: data/resources/ui/add_pdf_dialog.ui:88
+msgid "Add From URL"
+msgstr "Добавить из URL"
+
+#: data/resources/ui/add_pdf_dialog.ui:94
+msgid "Download…"
+msgstr "Загрузить…"
+
+#: data/resources/ui/citation_preview.ui:15
+msgid "Custom Citation Format"
+msgstr "Пользовательский формат цитирования"
+
+#: data/resources/ui/citation_preview.ui:50
+msgid "Citation"
+msgstr "Цитирование"
+
+#: data/resources/ui/citation_preview.ui:94 data/resources/ui/entry_page.ui:113
+msgid "Copy"
+msgstr "Копировать"
+
+#: data/resources/ui/citation_preview.ui:137
+msgid "Custom Template"
+msgstr "Пользовательский шаблон"
+
+#: data/resources/ui/citation_preview.ui:153
+msgid ""
+"Write a custom format for your citations, to insert the contents of a tag "
+"<tt>sometag</tt> write <tt>%SOMETAG%</tt>. Basic markdown syntax for bold "
+"and italics is supported.\n"
+"            "
+msgstr ""
+"Напишите собственный формат для цитирования, чтобы вставить содержимое тега "
+"<tt>sometag</tt>, напишите <tt>%SOMETAG%</tt>. Поддерживается базовый "
+"синтаксис markdown для жирного и курсивного начертаний.\n"
+"            "
+
+#: data/resources/ui/citation_preview.ui:159
+msgid "Example:"
+msgstr "Пример:"
+
+#. TRANSLATORS Empty state widget
+#: data/resources/ui/entry_list.ui:9
+msgid "No Citations"
+msgstr "Нет источников цитирования"
+
+#: data/resources/ui/entry_list.ui:10
+msgid "Create a new citation"
+msgstr "Создать новое цитирование"
+
+#: data/resources/ui/entry_list_row.ui:90
+msgid "_Open PDF"
+msgstr "_Открыть PDF"
+
+#: data/resources/ui/entry_list_row.ui:94
+msgid "_Copy Key"
+msgstr "_Копировать ключ"
+
+#: data/resources/ui/entry_list_row.ui:100 data/resources/ui/window.ui:61
+msgid "_Delete"
+msgstr "_Удалить"
+
+#: data/resources/ui/entry_page.ui:13
+msgid "No Citation Selected"
+msgstr "Нет выбранных источников цитирования"
+
+#: data/resources/ui/entry_page.ui:82
+msgid "Citation _Type"
+msgstr "_Тип цитирования"
+
+#: data/resources/ui/entry_page.ui:98
+msgid "_Other Citation Type"
+msgstr "_Другой тип цитирования"
+
+#: data/resources/ui/entry_page.ui:105
+msgid "_Citation Key"
+msgstr "Ключ _цитирования"
+
+#: data/resources/ui/entry_page.ui:124
+msgid "_Author"
+msgstr "_Автор"
+
+#: data/resources/ui/entry_page.ui:130
+msgid "_Title"
+msgstr "_Название"
+
+#: data/resources/ui/entry_page.ui:136
+msgid "_Year"
+msgstr "_Год"
+
+#: data/resources/ui/entry_page.ui:152 src/entry_page.rs:400
+msgid "Open in Browser"
+msgstr "Открыть в браузере"
+
+#: data/resources/ui/entry_page.ui:168
+msgid "Other Properties"
+msgstr "Другие свойства"
+
+#: data/resources/ui/entry_page.ui:182
+msgid "Abstract"
+msgstr "Аннотация"
+
+#: data/resources/ui/entry_page.ui:186
+msgid "Copy Abstract"
+msgstr "Копировать аннотацию"
+
+#: data/resources/ui/entry_page.ui:218
+msgid "Notes"
+msgstr "Заметки"
+
+#: data/resources/ui/entry_page.ui:222
+msgid "Copy Notes"
+msgstr "Копировать заметки"
+
+#: data/resources/ui/entry_page.ui:286
+msgid "PDF"
+msgstr "PDF"
+
+#: data/resources/ui/entry_page.ui:297 data/resources/ui/window.ui:10
+#: data/resources/ui/window.ui:107 data/resources/ui/window.ui:157
+msgid "_Open"
+msgstr "_Открыть"
+
+#: data/resources/ui/entry_page.ui:310
+msgid "Delete PDF"
+msgstr "Удалить PDF"
+
+#: data/resources/ui/entry_page.ui:351
+msgid "Could not set PDF Preview"
+msgstr "Не удалось установить предпросмотр PDF"
+
+#: data/resources/ui/new_entry_dialog.ui:7
+msgid "Add new Entry"
+msgstr "Добавить новую запись"
+
+#: data/resources/ui/new_entry_dialog.ui:18
+msgid "_Cancel"
+msgstr "_Отменить"
+
+#: data/resources/ui/new_entry_dialog.ui:25
+msgid "C_reate"
+msgstr "Со_здать"
+
+#: data/resources/ui/new_entry_dialog.ui:42
+msgid "New"
+msgstr "Новая"
+
+#: data/resources/ui/new_entry_dialog.ui:61
+msgid "Citation Key"
+msgstr "Ключ цитирования"
+
+#: data/resources/ui/new_entry_dialog.ui:68
+msgid "Citation Type"
+msgstr "Тип цитирования"
+
+#. TRANSLATORS BibTeX is a proper name
+#: data/resources/ui/new_entry_dialog.ui:88
+msgid "From BibTeX"
+msgstr "Из BibTeX"
+
+#: data/resources/ui/new_entry_dialog.ui:107
+msgid "From DOI"
+msgstr "Из DOI"
+
+#. TRANSLATORS DOI is a proper name
+#: data/resources/ui/new_entry_dialog.ui:118
+msgid "DOI"
+msgstr "DOI"
+
+#: data/resources/ui/shortcuts.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Общие"
+
+#: data/resources/ui/shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Показать комбинации клавиш"
+
+#: data/resources/ui/shortcuts.ui:20
+msgctxt "shortcut window"
+msgid "New Window"
+msgstr "Новое окно"
+
+#: data/resources/ui/shortcuts.ui:26
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Закрыть"
+
+#: data/resources/ui/shortcuts.ui:34
+msgctxt "shortcut window"
+msgid "Bibliography"
+msgstr "Библиография"
+
+#: data/resources/ui/shortcuts.ui:37
+msgctxt "shortcut window"
+msgid "Open"
+msgstr "Открыть"
+
+#: data/resources/ui/shortcuts.ui:43
+msgctxt "shortcut window"
+msgid "Save"
+msgstr "Сохранить"
+
+#: data/resources/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Поиск"
+
+#: data/resources/ui/window.ui:6
+msgid "_Create New Bibliography"
+msgstr "_Создать новую библиографию"
+
+#: data/resources/ui/window.ui:17 data/resources/ui/window.ui:39
+msgid "_Keyboard Shortcuts"
+msgstr "_Комбинации клавиш"
+
+#. TRANSLATORS About dialog
+#: data/resources/ui/window.ui:21 data/resources/ui/window.ui:43
+msgid "_About Citations"
+msgstr "_О приложении"
+
+#: data/resources/ui/window.ui:29
+msgid "_Save"
+msgstr "С_охранить"
+
+#: data/resources/ui/window.ui:33
+msgid "New _Window"
+msgstr "Новое _окно"
+
+#: data/resources/ui/window.ui:51
+msgid "_Search in Google Scholar"
+msgstr "_Искать в Google Scholar"
+
+#. TRANSLATORS arXiv is a proper name
+#: data/resources/ui/window.ui:55
+msgid "_Search in arXiv"
+msgstr "_Искать в arXiv"
+
+#: data/resources/ui/window.ui:90 data/resources/ui/window.ui:130
+#: data/resources/ui/window.ui:210
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#. TRANSLATORS BibTeX is a proper name
+#: data/resources/ui/window.ui:100
+msgid "Open a BibTeX File"
+msgstr "Открыть файл BibTeX"
+
+#: data/resources/ui/window.ui:101
+msgid "Or drag-and-drop a file"
+msgstr "Или перетащите файл"
+
+#: data/resources/ui/window.ui:139
+msgid "Manage your Citations"
+msgstr "Управляйте своими источниками цитирования"
+
+#: data/resources/ui/window.ui:149
+msgid "Recent Files"
+msgstr "Недавние файлы"
+
+#: data/resources/ui/window.ui:192
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: data/resources/ui/window.ui:203
+msgid "Add New Citation"
+msgstr "Добавить новое цитирование"
+
+#: data/resources/ui/window.ui:217
+msgid "Search"
+msgstr "Поиск"
+
+#: data/resources/ui/window.ui:231
+msgid "Search…"
+msgstr "Поиск…"
+
+#: data/resources/ui/window.ui:251
+msgid "Content"
+msgstr "Содержимое"
+
+#: data/resources/ui/window.ui:261
+msgid "Secondary Menu"
+msgstr "Дополнительное меню"
+
+#: src/add_pdf_dialog.rs:58
+msgid "Could not set PDF"
+msgstr "Не удалось установить PDF"
+
+#: src/add_pdf_dialog.rs:78
+msgid "Could not download PDF"
+msgstr "Не удалось загрузить PDF"
+
+#. TRANSLATORS Do NOT translate {path}, it is a variable name
+#: src/add_pdf_dialog.rs:105
+msgid "Make sure that {path} exists"
+msgstr "Убедитесь, что {path} существует"
+
+#: src/add_pdf_dialog.rs:193
+msgid "PDF Files"
+msgstr "Файлы PDF"
+
+#: src/add_pdf_dialog.rs:201
+msgid "Select a PDF"
+msgstr "Выберите PDF"
+
+#. TODO Should this be translatable?
+#: src/citation_preview.rs:56
+msgid "Chicago"
+msgstr "Чикаго"
+
+#: src/citation_preview.rs:57
+msgid "Harvard"
+msgstr "Гарвард"
+
+#: src/citation_preview.rs:58
+msgid "Vancouver"
+msgstr "Ванкувер"
+
+#. NOTE: Custom as in Custom Template.
+#: src/citation_preview.rs:60
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: src/citation_preview.rs:266 src/entry_list_row.rs:59 src/entry_page.rs:233
+msgid "Copied"
+msgstr "Скопировано"
+
+#: src/citation_preview.rs:273
+msgid "Custom…"
+msgstr "Пользовательский…"
+
+#: src/entry_list_row.rs:74
+msgid "Author not set"
+msgstr "Автор не задан"
+
+#: src/entry_list_row.rs:85
+msgid "Title not set"
+msgstr "Название не задано"
+
+#: src/entry_page.rs:204
+msgid "Other…"
+msgstr "Другое…"
+
+#. TRANSLATORS Every citation has an identifier called key
+#: src/entry_page.rs:252
+msgid "Citation Key already exists"
+msgstr "Ключ цитирования уже существует"
+
+#: src/entry_page.rs:605
+msgid "PDF added"
+msgstr "PDF добавлен"
+
+#: src/new_entry_dialog.rs:162
+msgid "Insert a BibTeX citation here"
+msgstr "Создать цитату BibTeX"
+
+#: src/utils.rs:14
+msgid "Author"
+msgstr "Автор"
+
+#: src/utils.rs:15
+msgid "Year"
+msgstr "Год"
+
+#: src/utils.rs:16
+msgid "Title"
+msgstr "Название"
+
+#: src/utils.rs:17
+msgid "Volume"
+msgstr "Том"
+
+#: src/utils.rs:18
+msgid "Number"
+msgstr "Номер"
+
+#: src/utils.rs:19
+msgid "Pages"
+msgstr "Страницы"
+
+#: src/utils.rs:20
+msgid "Publisher"
+msgstr "Издатель"
+
+#: src/utils.rs:21
+msgid "Journal"
+msgstr "Журнал"
+
+#: src/utils.rs:22
+msgid "Address"
+msgstr "Адрес"
+
+#. TRANSLATORS Method of publication, see https://www.bibtex.com/f/howpublished-field/
+#: src/utils.rs:24
+msgid "How Published"
+msgstr "Способы публикации"
+
+#: src/utils.rs:25
+msgid "Note"
+msgstr "Заметка"
+
+#: src/utils.rs:26
+msgid "Book Title"
+msgstr "Название книги (сборника)"
+
+#: src/utils.rs:27
+msgid "Series"
+msgstr "Серия"
+
+#: src/utils.rs:28
+msgid "Archive Prefix"
+msgstr "Префикс архива"
+
+#. TRANSLATORS As in digital print
+#: src/utils.rs:30
+msgid "ePrint"
+msgstr "ePrint"
+
+#. TRANSLATORS Identifier used by arXiv, see https://arxiv.org/help/hypertex/bibstyles
+#: src/utils.rs:32
+msgid "Primary Class"
+msgstr "Primary Class"
+
+#: src/utils.rs:33
+msgid "Month"
+msgstr "Месяц"
+
+#. TRANSLATORS As in chief editor
+#: src/utils.rs:35
+msgid "Editor"
+msgstr "Редактор"
+
+#. TRANSLATORS As in association
+#: src/utils.rs:37
+msgid "Organization"
+msgstr "Организация"
+
+#: src/utils.rs:38
+msgid "School"
+msgstr "Школа"
+
+#: src/utils.rs:39
+msgid "Institution"
+msgstr "Институт"
+
+#: src/window.rs:117
+msgid "Could not add entry"
+msgstr "Не удалось добавить запись"
+
+#: src/window.rs:347 src/window.rs:372
+msgid "BibTeX Files"
+msgstr "Файлы BibTeX"
+
+#: src/window.rs:381
+msgid "Create New Bibliography"
+msgstr "Создать новую библиографию"
+
+#: src/window.rs:382
+msgid "_Create"
+msgstr "_Создать"
+
+#. TRANSLATORS This a file name, .bib will be appended e.g.
+#. bibliography.bib, please only use alphabetic characters.
+#: src/window.rs:385
+msgid "bibliography"
+msgstr "библиография"
+
+#: src/window.rs:508
+msgid "An entry with the given citation key already exists"
+msgstr "Запись с данным ключом цитирования уже существует"
+
+#: src/window.rs:523
+msgid "Bibliography saved"
+msgstr "Библиография сохранена"
+
+#: src/window.rs:576
+msgid "Citation Deleted"
+msgstr "Цитирование удалено"
+
+#: src/window.rs:578
+msgid "Undo"
+msgstr "Отменить"
+
+#: src/window.rs:625
+msgid "translator-credits"
+msgstr "Ser82-png <asvmail.as@gmail.com>, 2022-2023"
+
+#. NOTE Dialog title which informs the user about unsaved changes.
+#: src/window.rs:637
+msgid "Unsaved Changes"
+msgstr "Несохранённые изменения"
+
+#. NOTE Dialog subtitle which informs the user about unsaved changes more detailed.
+#: src/window.rs:640
+msgid "Do you want to write all changes to the safe?"
+msgstr "Хотите записать все изменения в сейф?"
+
+#: src/window.rs:644
+msgid "_Quit Without Saving"
+msgstr "_Закрыть без сохранения"
+
+#: src/window.rs:645
+msgid "_Don't Quit"
+msgstr "_Не закрывать"
+
+#: src/window.rs:646
+msgid "_Save and Quit"
+msgstr "_Сохранить и закрыть"
+
+#: src/window.rs:689
+msgid "Remove From Recent Files"
+msgstr "Удалить из недавних файлов"
+
+#~ msgid "Maximiliano Sandoval"
+#~ msgstr "Maximiliano Sandoval"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "bibliography.bib"
+#~ msgstr "bibliography.bib"
+
+#~ msgid "Copy file to bibliography folder"
+#~ msgstr "Копировать файл в папку библиографии"
+
+#~| msgctxt "shortcut window"
+#~| msgid "Open"
+#~ msgid "Open"
+#~ msgstr "Открыть"
+
+#~ msgid "Gnome;GTK;"
+#~ msgstr "Gnome;GTK;"

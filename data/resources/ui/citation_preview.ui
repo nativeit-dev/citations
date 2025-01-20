@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="CitationPreview" parent="AdwBin">
+    <signal name="notify::template" handler="on_template_notify" swapped="true"/>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="spacing">6</property>
+        <child>
+          <object class="GtkRevealer" id="template_revealer">
+            <property name="reveal-child">False</property>
+            <property name="transition-type">slide-up</property>
+            <child>
+              <object class="AdwPreferencesGroup">
+                <property name="title" translatable="yes">Custom Citation Format</property>
+                <property name="header-suffix">
+                  <object class="GtkMenuButton">
+                    <property name="icon-name">dialog-question-symbolic</property>
+                    <property name="popover">popover</property>
+                    <style>
+                      <class name="flat"/>
+                    </style>
+                  </object>
+                </property>
+                <child>
+                  <object class="GtkScrolledWindow">
+                    <property name="margin-bottom">24</property>
+                    <property name="height_request">90</property>
+                    <child>
+                      <object class="GtkTextView" id="text_view">
+                        <property name="hexpand">True</property>
+                        <property name="monospace">True</property>
+                        <property name="wrap_mode">word</property>
+                        <style>
+                          <class name="inline"/>
+                        </style>
+                      </object>
+                    </child>
+                    <style>
+                      <class name="card"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwPreferencesGroup" id="citation_group">
+            <property name="title" translatable="yes">Citation</property>
+            <property name="header-suffix">
+              <object class="GtkBox">
+                <property name="spacing">6</property>
+                <child>
+                  <object class="GtkDropDown" id="template_drop_down">
+                    <property name="model">
+                      <object class="AdwEnumListModel">
+                        <property name="enum-type">Template</property>
+                      </object>
+                    </property>
+                    <property name="expression">
+                      <closure type="gchararray" function="template_type_name"/>
+                    </property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkDropDown" id="drop_down">
+                    <property name="model">
+                      <object class="AdwEnumListModel">
+                        <property name="enum-type">Format</property>
+                      </object>
+                    </property>
+                    <property name="expression">
+                      <closure type="gchararray" function="format_type_name"/>
+                    </property>
+                  </object>
+                </child>
+              </object>
+            </property>
+            <child>
+              <object class="GtkScrolledWindow">
+                <property name="height_request">90</property>
+                <child>
+                  <object class="GtkOverlay">
+                    <child type="overlay">
+                      <object class="GtkButton">
+                        <property name="halign">end</property>
+                        <property name="valign">end</property>
+                        <property name="icon-name">edit-copy-symbolic</property>
+                        <property name="margin-end">6</property>
+                        <property name="margin-start">6</property>
+                        <property name="margin-top">6</property>
+                        <property name="margin-bottom">6</property>
+                        <property name="tooltip-text" translatable="yes">Copy</property>
+                        <signal name="clicked" handler="on_clicked" swapped="true"/>
+                        <style>
+                          <class name="flat"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSourceView" id="source_view">
+                        <property name="hexpand">True</property>
+                        <property name="wrap_mode">word</property>
+                        <property name="editable">False</property>
+                        <style>
+                          <class name="inline"/>
+                        </style>
+                        <accessibility>
+                          <relation name="labelled-by">citation_group</relation>
+                        </accessibility>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <style>
+                  <class name="card"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+  <object class="GtkPopover" id="popover">
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="spacing">6</property>
+        <property name="margin-start">6</property>
+        <property name="margin-end">6</property>
+        <property name="margin-top">6</property>
+        <property name="margin-bottom">6</property>
+        <child>
+          <object class="GtkLabel">
+            <property name="label" translatable="yes">Custom Template</property>
+            <property name="xalign">0</property>
+            <style>
+              <class name="heading"/>
+            </style>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="xalign">0</property>
+            <property name="wrap">True</property>
+            <property name="wrap-mode">word-char</property>
+            <property name="ellipsize">none</property>
+            <property name="lines">4</property>
+            <property name="use-markup">True</property>
+            <property name="max-width-chars">40</property>
+            <property name="label" translatable="yes">Write a custom format for your citations, to insert the contents of a tag &lt;tt&gt;sometag&lt;/tt&gt; write &lt;tt&gt;%SOMETAG%&lt;/tt&gt;. Basic markdown syntax for bold and italics is supported.
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="label" translatable="yes">Example:</property>
+            <property name="xalign">0</property>
+            <style>
+              <class name="heading"/>
+            </style>
+          </object>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow">
+            <property name="height-request">70</property>
+            <property name="width-request">300</property>
+            <property name="max-content-width">300</property>
+            <property name="hscrollbar-policy">never</property>
+            <child>
+              <object class="GtkTextView" id="help_source_view">
+                <property name="hexpand">True</property>
+                <property name="wrap_mode">word</property>
+                <property name="editable">False</property>
+                <property name="monospace">True</property>
+                <style>
+                  <class name="inline"/>
+                </style>
+              </object>
+            </child>
+            <style>
+              <class name="card"/>
+            </style>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

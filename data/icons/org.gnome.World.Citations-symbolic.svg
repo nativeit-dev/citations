@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <filter id="a" height="100%" width="100%" x="0%" y="0%">
+        <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="b">
+        <g filter="url(#a)">
+            <rect fill-opacity="0.1" height="16" width="16"/>
+        </g>
+    </mask>
+    <linearGradient id="c" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-opacity="0"/>
+        <stop offset="0.2"/>
+        <stop offset="0.8" stop-opacity="0.94902"/>
+        <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="d" gradientTransform="matrix(0.980392 0 0 1 4.823524 -148)" x1="42" x2="93" xlink:href="#c" y1="273" y2="273"/>
+    <clipPath id="e">
+        <rect height="152" width="192"/>
+    </clipPath>
+    <mask id="f">
+        <g filter="url(#a)">
+            <rect fill-opacity="0.1" height="16" width="16"/>
+        </g>
+    </mask>
+    <linearGradient id="g" gradientTransform="matrix(0.627451 0 0 1 35.647058 -144)" x1="42" x2="93" xlink:href="#c" y1="273" y2="273"/>
+    <clipPath id="h">
+        <rect height="152" width="192"/>
+    </clipPath>
+    <mask id="i">
+        <g filter="url(#a)">
+            <rect fill-opacity="0.15" height="16" width="16"/>
+        </g>
+    </mask>
+    <clipPath id="j">
+        <rect height="152" width="192"/>
+    </clipPath>
+    <g clip-path="url(#e)" mask="url(#b)" transform="matrix(1 0 0 1 -168 -16)">
+        <path d="m 46 124 h 50 v 2 h -50 z m 0 0" fill="url(#d)"/>
+    </g>
+    <g clip-path="url(#h)" mask="url(#f)" transform="matrix(1 0 0 1 -168 -16)">
+        <path d="m 62 128 h 32 v 2 h -32 z m 0 0" fill="url(#g)"/>
+    </g>
+    <g clip-path="url(#j)" mask="url(#i)" transform="matrix(1 0 0 1 -168 -16)">
+        <path d="m 92 24 l -1 13 c -0.339844 4.417969 3.582031 8.339844 8 8 l 13 -1 c -7.105469 -5.109375 -15.238281 -6.542969 -20 -20 z m 0 0"/>
+    </g>
+    <g fill="#241f31">
+        <path d="m 4.5 2 c 1.933594 0 3.5 1.566406 3.5 3.5 s -1.566406 3.5 -3.5 3.5 s -3.5 -1.566406 -3.5 -3.5 s 1.566406 -3.5 3.5 -3.5 z m 0 0"/>
+        <path d="m 4.511719 6.957031 l 3.089843 0.175781 l -3.429687 5.867188 h -2.246094 z m 0 0"/>
+        <path d="m 12.5 2 c 1.933594 0 3.5 1.566406 3.5 3.5 s -1.566406 3.5 -3.5 3.5 s -3.5 -1.566406 -3.5 -3.5 s 1.566406 -3.5 3.5 -3.5 z m 0 0"/>
+        <path d="m 12.511719 6.957031 l 3.089843 0.175781 l -3.429687 5.867188 h -2.246094 z m 0 0"/>
+    </g>
+</svg>

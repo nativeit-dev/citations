@@ -1,0 +1,42 @@
+[workspace]
+members = ["cratebibtex"]
+
+[workspace.package]
+edition = "2021"
+license = "GPL-3.0-or-later"
+rust-version = "1.80"
+authors = ["Maximiliano Sandoval <msandova@gnome.org>"]
+
+[workspace.dependencies]
+anyhow = "1"
+gettext-rs = { version = "0.7", features = ["gettext-system"] }
+log = "0.4"
+
+[package]
+name = "citations"
+version = "0.6.2"
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[profile.release]
+lto = true
+
+[dependencies]
+adw = { package = "libadwaita", version = "0.7", features = ["v1_6"] }
+anyhow.workspace = true
+cairo-rs = { version = "0.20", features = ["png"] }
+cratebibtex = { path = "cratebibtex" }
+doi2bib = "0.2"
+futures-channel = "0.3"
+gettext-rs.workspace = true
+gsv = { package = "sourceview5", version = "0.9" }
+gtk = { version = "0.9", package = "gtk4", features = ["gnome_47"] }
+log.workspace = true
+poppler-rs = { version = "0.24", features = ["v0_82"] }
+reqwest = "0.12"
+sanitize-filename = "0.6"
+tokio = { version = "1.36", default-features = false, features = ["rt-multi-thread"] }
+tracing-subscriber = "0.3"
+url = "2.3"

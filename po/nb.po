@@ -1,0 +1,684 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/citations/-/issues\n"
+"POT-Creation-Date: 2024-09-25 18:41+0000\n"
+"PO-Revision-Date: 2024-10-01 10:50+0200\n"
+"Last-Translator: Brage <bragefuglseth@gnome.org>\n"
+"Language-Team: \n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: cratebibtex/src/entry_type.rs:117
+msgid "Article"
+msgstr "Artikkel"
+
+#: cratebibtex/src/entry_type.rs:118
+msgid "Book"
+msgstr "Bok"
+
+#: cratebibtex/src/entry_type.rs:119
+msgid "Misc"
+msgstr "Ukategorisert"
+
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:121
+msgid "In Proceedings"
+msgstr "Fra avhandling"
+
+#: cratebibtex/src/entry_type.rs:122
+msgid "Unpublished"
+msgstr "Ikke utgitt"
+
+#. NOTE As in online source
+#: cratebibtex/src/entry_type.rs:124
+msgid "Online"
+msgstr "Nettbasert"
+
+#. NOTE As in other kind of source
+#: cratebibtex/src/entry_type.rs:126
+msgid "Other"
+msgstr "Annet"
+
+#: cratebibtex/src/entry_type.rs:127
+msgid "Booklet"
+msgstr "Brosjyre"
+
+#: cratebibtex/src/entry_type.rs:128
+msgid "Conference"
+msgstr "Konferanse"
+
+#: cratebibtex/src/entry_type.rs:129
+msgid "In Book"
+msgstr "Fra bok"
+
+#: cratebibtex/src/entry_type.rs:130
+msgid "In Collection"
+msgstr "Fra samling"
+
+#. NOTE As in instruction manual
+#: cratebibtex/src/entry_type.rs:132
+msgid "Manual"
+msgstr "Veiledning"
+
+#: cratebibtex/src/entry_type.rs:133
+msgid "Master's Thesis"
+msgstr "Masteroppgave"
+
+#: cratebibtex/src/entry_type.rs:134
+msgid "PhD Thesis"
+msgstr "Doktorgradsoppgave"
+
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:136
+msgid "Proceedings"
+msgstr "Avhandling"
+
+#: cratebibtex/src/entry_type.rs:137
+msgid "Tech Report"
+msgstr "Teknisk rapport"
+
+#. NOTE Plain as in Plain Text
+#: cratebibtex/src/format.rs:52
+msgid "Plain"
+msgstr "Ren tekst"
+
+#. NOTE: This is the app name
+#: data/org.gnome.World.Citations.desktop.in.in:3
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:7
+#: data/resources/ui/window.ui:69 src/main.rs:42 src/window.rs:619
+msgid "Citations"
+msgstr "Citations"
+
+#: data/org.gnome.World.Citations.desktop.in.in:4
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:8 src/window.rs:621
+msgid "Manage your bibliography"
+msgstr "Hold orden på kildene dine"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.World.Citations.desktop.in.in:10
+msgid "bibliography;citing;literature;BibTeX;LaTeX;TeX;"
+msgstr "bibliografi;kilder;kildeliste;litteratur;BibTeX;LaTeX;TeX;"
+
+#: data/org.gnome.World.Citations.desktop.in.in:19
+msgid "New Window"
+msgstr "Nytt vindu"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:6
+msgid "Window width"
+msgstr "Vindusbredde"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:10
+msgid "Window height"
+msgstr "Vindushøyde"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:14
+msgid "Window maximized state"
+msgstr "Vindusmaksimering"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:18
+msgid "List of paths of recent files"
+msgstr "Nylige filer"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:22
+#: data/org.gnome.World.Citations.gschema.xml.in:26
+msgid "Default template for book citation"
+msgstr "Standardmal for bokhenvisning"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:30
+msgid "Default template kind for citations"
+msgstr "Standard maltype for henvisninger"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:34
+msgid "Default template format for citations"
+msgstr "Standard malformat for henvisninger"
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:10
+msgid "Manage your bibliographies using the BibTeX format."
+msgstr ""
+"Citations lar deg opprette og redigere kildelister med BibTeX-formatet."
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:15
+msgid "Main window"
+msgstr "Hovedvindu"
+
+#. Translators: Selects a PDF file for the citation
+#: data/resources/ui/add_pdf_dialog.ui:8 data/resources/ui/entry_page.ui:268
+msgid "Add PDF"
+msgstr "Legg til PDF"
+
+#: data/resources/ui/add_pdf_dialog.ui:47
+msgid "Bibliography folder not set"
+msgstr "Kildemappe ikke angitt"
+
+#: data/resources/ui/add_pdf_dialog.ui:65
+msgid ""
+"Creates a copy of the selected pdf and stores it in your Bibliography folder."
+msgstr ""
+"Oppretter en kopi av den valgte PDF-en og lagrer den i kildemappen din."
+
+#: data/resources/ui/add_pdf_dialog.ui:80
+msgid "From File"
+msgstr "Fra fil"
+
+#: data/resources/ui/add_pdf_dialog.ui:93
+msgid "From URL"
+msgstr "Fra adresse"
+
+#: data/resources/ui/add_pdf_dialog.ui:99
+msgid "Download…"
+msgstr "Last ned…"
+
+#: data/resources/ui/citation_preview.ui:15
+msgid "Custom Citation Format"
+msgstr "Eget format"
+
+#: data/resources/ui/citation_preview.ui:50
+msgid "Citation"
+msgstr "Kildehenvisning"
+
+#: data/resources/ui/citation_preview.ui:94 data/resources/ui/entry_page.ui:113
+msgid "Copy"
+msgstr "Kopier"
+
+#: data/resources/ui/citation_preview.ui:137
+msgid "Custom Template"
+msgstr "Egen mal"
+
+#: data/resources/ui/citation_preview.ui:153
+msgid ""
+"Write a custom format for your citations, to insert the contents of a tag "
+"<tt>sometag</tt> write <tt>%SOMETAG%</tt>. Basic markdown syntax for bold "
+"and italics is supported.\n"
+"            "
+msgstr ""
+"Lag et eget format til kildehenvisningene dine. For å sette inn innholdet i "
+"et felt, bruk <tt>%FELTNAVN%</tt>. Fet tekst og kursiv er tilgjengelig med "
+"enkel Markdown-syntaks.\n"
+"            "
+
+#: data/resources/ui/citation_preview.ui:159
+msgid "Example:"
+msgstr "Eksempel:"
+
+#. TRANSLATORS Empty state widget
+#: data/resources/ui/entry_list.ui:9
+msgid "No Citations"
+msgstr "Ingen henvisninger"
+
+#: data/resources/ui/entry_list.ui:10
+msgid "Create a new citation"
+msgstr "Opprett en ny kildehenvisning"
+
+#: data/resources/ui/entry_list_row.ui:90
+msgid "_Open PDF"
+msgstr "_Åpne PDF"
+
+#: data/resources/ui/entry_list_row.ui:94
+msgid "_Copy Key"
+msgstr "_Kopier nøkkel"
+
+#: data/resources/ui/entry_list_row.ui:100 data/resources/ui/window.ui:61
+msgid "_Delete"
+msgstr "_Slett"
+
+#: data/resources/ui/entry_page.ui:13
+msgid "No Citation Selected"
+msgstr "Ingen henvisning valgt"
+
+#: data/resources/ui/entry_page.ui:82
+msgid "Citation _Type"
+msgstr "Henvisnings_type"
+
+#: data/resources/ui/entry_page.ui:98
+msgid "_Other Citation Type"
+msgstr "_Annen henvisningstype"
+
+#: data/resources/ui/entry_page.ui:105
+msgid "_Citation Key"
+msgstr "Henvisnings_nøkkel"
+
+#: data/resources/ui/entry_page.ui:124
+msgid "_Author"
+msgstr "_Forfatter"
+
+#: data/resources/ui/entry_page.ui:130
+msgid "_Title"
+msgstr "_Tittel"
+
+#: data/resources/ui/entry_page.ui:136
+msgid "_Year"
+msgstr "_År"
+
+#: data/resources/ui/entry_page.ui:152 src/entry_page.rs:400
+msgid "Open in Browser"
+msgstr "Åpne i nettleser"
+
+#: data/resources/ui/entry_page.ui:168
+msgid "Other Properties"
+msgstr "Andre egenskaper"
+
+#: data/resources/ui/entry_page.ui:182
+msgid "Abstract"
+msgstr "Sammendrag"
+
+#: data/resources/ui/entry_page.ui:186
+msgid "Copy Abstract"
+msgstr "Kopier sammendrag"
+
+#: data/resources/ui/entry_page.ui:218
+msgid "Notes"
+msgstr "Notater"
+
+#: data/resources/ui/entry_page.ui:222
+msgid "Copy Notes"
+msgstr "Kopier notater"
+
+#: data/resources/ui/entry_page.ui:286
+msgid "PDF"
+msgstr "PDF"
+
+#: data/resources/ui/entry_page.ui:297 data/resources/ui/window.ui:10
+#: data/resources/ui/window.ui:107 data/resources/ui/window.ui:157
+msgid "_Open"
+msgstr "_Åpne"
+
+#: data/resources/ui/entry_page.ui:310
+msgid "Delete PDF"
+msgstr "Slett PDF"
+
+#: data/resources/ui/entry_page.ui:351
+msgid "Could not set PDF Preview"
+msgstr "Forhåndsvisning av PDF mislyktes"
+
+#: data/resources/ui/new_entry_dialog.ui:7
+msgid "Add new Entry"
+msgstr "Legg til felt"
+
+#: data/resources/ui/new_entry_dialog.ui:18
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: data/resources/ui/new_entry_dialog.ui:25
+msgid "C_reate"
+msgstr "_Opprett"
+
+#: data/resources/ui/new_entry_dialog.ui:42
+msgid "New"
+msgstr "Ny"
+
+#: data/resources/ui/new_entry_dialog.ui:61
+msgid "Citation Key"
+msgstr "Henvisningsnøkkel"
+
+#: data/resources/ui/new_entry_dialog.ui:68
+msgid "Citation Type"
+msgstr "Henvisningstype"
+
+#. TRANSLATORS BibTeX is a proper name
+#: data/resources/ui/new_entry_dialog.ui:88
+msgid "From BibTeX"
+msgstr "Fra BibTeX"
+
+#: data/resources/ui/new_entry_dialog.ui:107
+msgid "From DOI"
+msgstr "Fra DOI"
+
+#. TRANSLATORS DOI is a proper name
+#: data/resources/ui/new_entry_dialog.ui:118
+msgid "DOI"
+msgstr "DOI"
+
+#: data/resources/ui/shortcuts.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Generelt"
+
+#: data/resources/ui/shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Vis tastatursnarveier"
+
+#: data/resources/ui/shortcuts.ui:20
+msgctxt "shortcut window"
+msgid "New Window"
+msgstr "Nytt vindu"
+
+#: data/resources/ui/shortcuts.ui:26
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avslutt"
+
+#: data/resources/ui/shortcuts.ui:34
+msgctxt "shortcut window"
+msgid "Bibliography"
+msgstr "Kildeliste"
+
+#: data/resources/ui/shortcuts.ui:37
+msgctxt "shortcut window"
+msgid "Open"
+msgstr "Åpne"
+
+#: data/resources/ui/shortcuts.ui:43
+msgctxt "shortcut window"
+msgid "Save"
+msgstr "Lagre"
+
+#: data/resources/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Søk"
+
+#: data/resources/ui/window.ui:6
+msgid "_Create New Bibliography"
+msgstr "_Opprett ny kildeliste"
+
+#: data/resources/ui/window.ui:17 data/resources/ui/window.ui:39
+msgid "_Keyboard Shortcuts"
+msgstr "_Tastatursnarveier"
+
+#. TRANSLATORS About dialog
+#: data/resources/ui/window.ui:21 data/resources/ui/window.ui:43
+msgid "_About Citations"
+msgstr "_Om Citations"
+
+#: data/resources/ui/window.ui:29
+msgid "_Save"
+msgstr "_Lagre"
+
+#: data/resources/ui/window.ui:33
+msgid "New _Window"
+msgstr "_Nytt vindu"
+
+#: data/resources/ui/window.ui:51
+msgid "_Search in Google Scholar"
+msgstr "_Søk på Google Scholar"
+
+#. TRANSLATORS arXiv is a proper name
+#: data/resources/ui/window.ui:55
+msgid "_Search in arXiv"
+msgstr "_Søk på arXiv"
+
+#: data/resources/ui/window.ui:90 data/resources/ui/window.ui:130
+#: data/resources/ui/window.ui:210
+msgid "Main Menu"
+msgstr "Hovedmeny"
+
+#. TRANSLATORS BibTeX is a proper name
+#: data/resources/ui/window.ui:100
+msgid "Open a BibTeX File"
+msgstr "Åpne en kildeliste"
+
+#: data/resources/ui/window.ui:101
+msgid "Or drag-and-drop a file"
+msgstr "Velg en BibTeX-fil, eller dra og slipp den her"
+
+#: data/resources/ui/window.ui:139
+msgid "Manage your Citations"
+msgstr "Hold orden på kildene dine"
+
+#: data/resources/ui/window.ui:149
+msgid "Recent Files"
+msgstr "Nylige filer"
+
+#: data/resources/ui/window.ui:192
+msgid "Sidebar"
+msgstr "Sidelinje"
+
+#: data/resources/ui/window.ui:203
+msgid "Add New Citation"
+msgstr "Legg til henvisning"
+
+#: data/resources/ui/window.ui:217
+msgid "Search"
+msgstr "Søk"
+
+#: data/resources/ui/window.ui:231
+msgid "Search…"
+msgstr "Søk…"
+
+#: data/resources/ui/window.ui:251
+msgid "Content"
+msgstr "Innhold"
+
+#: data/resources/ui/window.ui:261
+msgid "Secondary Menu"
+msgstr "Henvisningsmeny"
+
+#: src/add_pdf_dialog.rs:58
+msgid "Could not set PDF"
+msgstr "Bruk av PDF mislyktes"
+
+#: src/add_pdf_dialog.rs:78
+msgid "Could not download PDF"
+msgstr "Nedlasting av PDF mislyktes"
+
+#. TRANSLATORS Do NOT translate {path}, it is a variable name
+#: src/add_pdf_dialog.rs:105
+msgid "Make sure that {path} exists"
+msgstr "Pass på at {path} finnes"
+
+#: src/add_pdf_dialog.rs:193
+msgid "PDF Files"
+msgstr "PDF-filer"
+
+#: src/add_pdf_dialog.rs:201
+msgid "Select a PDF"
+msgstr "Velg en PDF"
+
+#. TODO Should this be translatable?
+#: src/citation_preview.rs:56
+msgid "Chicago"
+msgstr "Chicago"
+
+#: src/citation_preview.rs:57
+msgid "Harvard"
+msgstr "Harvard"
+
+#: src/citation_preview.rs:58
+msgid "Vancouver"
+msgstr "Vancouver"
+
+#. NOTE: Custom as in Custom Template.
+#: src/citation_preview.rs:60
+msgid "Custom"
+msgstr "Egendefinert"
+
+#: src/citation_preview.rs:266 src/entry_list_row.rs:59 src/entry_page.rs:233
+msgid "Copied"
+msgstr "Kopiert"
+
+#: src/citation_preview.rs:273
+msgid "Custom…"
+msgstr "Egendefinert…"
+
+#: src/entry_list_row.rs:74
+msgid "Author not set"
+msgstr "Ingen forfatter"
+
+#: src/entry_list_row.rs:85
+msgid "Title not set"
+msgstr "Ingen tittel"
+
+#: src/entry_page.rs:204
+msgid "Other…"
+msgstr "Annet…"
+
+#. TRANSLATORS Every citation has an identifier called key
+#: src/entry_page.rs:252
+msgid "Citation Key already exists"
+msgstr "Nøkkelen er allerede i bruk"
+
+#: src/entry_page.rs:605
+msgid "PDF added"
+msgstr "PDF lagt til"
+
+#: src/new_entry_dialog.rs:162
+msgid "Insert a BibTeX citation here"
+msgstr "Sett inn en BibTeX-henvisning her"
+
+#: src/utils.rs:14
+msgid "Author"
+msgstr "Forfatter"
+
+#: src/utils.rs:15
+msgid "Year"
+msgstr "År"
+
+#: src/utils.rs:16
+msgid "Title"
+msgstr "Tittel"
+
+#: src/utils.rs:17
+msgid "Volume"
+msgstr "Del"
+
+#: src/utils.rs:18
+msgid "Number"
+msgstr "Nummer"
+
+#: src/utils.rs:19
+msgid "Pages"
+msgstr "Sider"
+
+#: src/utils.rs:20
+msgid "Publisher"
+msgstr "Utgiver"
+
+#: src/utils.rs:21
+msgid "Journal"
+msgstr "Tidsskrift"
+
+#: src/utils.rs:22
+msgid "Address"
+msgstr "Adresse"
+
+#. TRANSLATORS Method of publication, see https://www.bibtex.com/f/howpublished-field/
+#: src/utils.rs:24
+msgid "How Published"
+msgstr "Utgivelsesmetode"
+
+#: src/utils.rs:25
+msgid "Note"
+msgstr "Notat"
+
+#: src/utils.rs:26
+msgid "Book Title"
+msgstr "Boktittel"
+
+#: src/utils.rs:27
+msgid "Series"
+msgstr "Serie"
+
+#: src/utils.rs:28
+msgid "Archive Prefix"
+msgstr "Arkivprefiks"
+
+#. TRANSLATORS As in digital print
+#: src/utils.rs:30
+msgid "ePrint"
+msgstr "ePrint"
+
+#. TRANSLATORS Identifier used by arXiv, see https://arxiv.org/help/hypertex/bibstyles
+#: src/utils.rs:32
+msgid "Primary Class"
+msgstr "Hovedklasse"
+
+#: src/utils.rs:33
+msgid "Month"
+msgstr "Måned"
+
+#. TRANSLATORS As in chief editor
+#: src/utils.rs:35
+msgid "Editor"
+msgstr "Redaktør"
+
+#. TRANSLATORS As in association
+#: src/utils.rs:37
+msgid "Organization"
+msgstr "Organisasjon"
+
+#: src/utils.rs:38
+msgid "School"
+msgstr "Skole"
+
+#: src/utils.rs:39
+msgid "Institution"
+msgstr "Institusjon"
+
+#: src/window.rs:117
+msgid "Could not add entry"
+msgstr "Oppføring mislyktes"
+
+#: src/window.rs:347 src/window.rs:372
+msgid "BibTeX Files"
+msgstr "BibTeX-filer"
+
+#: src/window.rs:381
+msgid "Create New Bibliography"
+msgstr "Opprett ny kildeliste"
+
+#: src/window.rs:382
+msgid "_Create"
+msgstr "_Opprett"
+
+#. TRANSLATORS This a file name, .bib will be appended e.g.
+#. bibliography.bib, please only use alphabetic characters.
+#: src/window.rs:385
+msgid "bibliography"
+msgstr "kildeliste"
+
+#: src/window.rs:508
+msgid "An entry with the given citation key already exists"
+msgstr "Kildelisten har allerede en oppføring med denne nøkkelen"
+
+#: src/window.rs:523
+msgid "Bibliography saved"
+msgstr "Kildeliste lagret"
+
+#: src/window.rs:576
+msgid "Citation Deleted"
+msgstr "Henvisning slettet"
+
+#: src/window.rs:578
+msgid "Undo"
+msgstr "Angre"
+
+#: src/window.rs:625
+msgid "translator-credits"
+msgstr "Brage Fuglseth https://bragefuglseth.dev"
+
+#. NOTE Dialog title which informs the user about unsaved changes.
+#: src/window.rs:637
+msgid "Unsaved Changes"
+msgstr "Lagre endringer?"
+
+#. NOTE Dialog subtitle which informs the user about unsaved changes more detailed.
+#: src/window.rs:640
+msgid "Do you want to write all changes to the safe?"
+msgstr "Ønsker du å lagre alle endringene gjort på filen?"
+
+#: src/window.rs:644
+msgid "_Quit Without Saving"
+msgstr "_Forkast"
+
+#: src/window.rs:645
+msgid "_Don't Quit"
+msgstr "_Avbryt"
+
+#: src/window.rs:646
+msgid "_Save and Quit"
+msgstr "_Lagre"
+
+#: src/window.rs:689
+msgid "Remove From Recent Files"
+msgstr "Fjern fra nylige filer"

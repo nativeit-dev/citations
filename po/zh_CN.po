@@ -1,0 +1,695 @@
+# Chinese (China) translation for citations.
+# Copyright (C) 2022 citations's COPYRIGHT HOLDER
+# This file is distributed under the same license as the citations package.
+# Boyuan Yang <073plan@gmail.com>, 2022.
+# lumingzh <lumingzh@qq.com>, 2022-2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: citations master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/citations/-/issues\n"
+"POT-Creation-Date: 2025-01-10 21:19+0000\n"
+"PO-Revision-Date: 2025-01-14 14:36+0800\n"
+"Last-Translator: lumingzh <lumingzh@qq.com>\n"
+"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 47.1\n"
+
+#: cratebibtex/src/entry_type.rs:117
+msgid "Article"
+msgstr "文章"
+
+#: cratebibtex/src/entry_type.rs:118
+msgid "Book"
+msgstr "书籍"
+
+#: cratebibtex/src/entry_type.rs:119
+msgid "Misc"
+msgstr "杂项"
+
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:121
+msgid "In Proceedings"
+msgstr "会议论文集内"
+
+#: cratebibtex/src/entry_type.rs:122
+msgid "Unpublished"
+msgstr "未发表的"
+
+#. NOTE As in online source
+#: cratebibtex/src/entry_type.rs:124
+msgid "Online"
+msgstr "在线"
+
+#. NOTE As in other kind of source
+#: cratebibtex/src/entry_type.rs:126
+msgid "Other"
+msgstr "其它"
+
+#: cratebibtex/src/entry_type.rs:127
+msgid "Booklet"
+msgstr "小册子"
+
+#: cratebibtex/src/entry_type.rs:128
+msgid "Conference"
+msgstr "会议"
+
+#: cratebibtex/src/entry_type.rs:129
+msgid "In Book"
+msgstr "书籍内"
+
+#: cratebibtex/src/entry_type.rs:130
+msgid "In Collection"
+msgstr "合集内"
+
+#. NOTE As in instruction manual
+#: cratebibtex/src/entry_type.rs:132
+msgid "Manual"
+msgstr "手册"
+
+#: cratebibtex/src/entry_type.rs:133
+msgid "Master's Thesis"
+msgstr "硕士论文"
+
+#: cratebibtex/src/entry_type.rs:134
+msgid "PhD Thesis"
+msgstr "博士论文"
+
+#. NOTE As in conference proceedings, see https://en.wikipedia.org/wiki/Conference_proceeding
+#: cratebibtex/src/entry_type.rs:136
+msgid "Proceedings"
+msgstr "会议论文集"
+
+#: cratebibtex/src/entry_type.rs:137
+msgid "Tech Report"
+msgstr "技术报告"
+
+#. NOTE Plain as in Plain Text
+#: cratebibtex/src/format.rs:52
+msgid "Plain"
+msgstr "纯文本"
+
+#. NOTE: This is the app name
+#: data/org.gnome.World.Citations.desktop.in.in:3
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:7
+#: data/resources/ui/window.ui:69 src/main.rs:39 src/window.rs:629
+msgid "Citations"
+msgstr "引文"
+
+#: data/org.gnome.World.Citations.desktop.in.in:4
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:8 src/window.rs:631
+msgid "Manage your bibliography"
+msgstr "管理您的参考书目"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.World.Citations.desktop.in.in:10
+msgid "bibliography;citing;literature;BibTeX;LaTeX;TeX;"
+msgstr ""
+"bibliography;citing;literature;BibTeX;LaTeX;TeX;参考书目;引用;文献;引述;引证;"
+
+#: data/org.gnome.World.Citations.desktop.in.in:19
+msgid "New Window"
+msgstr "新建窗口"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:6
+msgid "Window width"
+msgstr "窗口宽度"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:10
+msgid "Window height"
+msgstr "窗口高度"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:14
+msgid "Window maximized state"
+msgstr "窗口最大化状态"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:18
+msgid "List of paths of recent files"
+msgstr "最近文件路径列表"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:22
+#: data/org.gnome.World.Citations.gschema.xml.in:26
+msgid "Default template for book citation"
+msgstr "引用书籍的默认模板"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:30
+msgid "Default template kind for citations"
+msgstr "引文的默认模板类别"
+
+#: data/org.gnome.World.Citations.gschema.xml.in:34
+msgid "Default template format for citations"
+msgstr "引文的默认模板格式"
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:10
+msgid "Manage your bibliographies using the BibTeX format."
+msgstr "使用 BibTeX 格式管理您的参考文献。"
+
+#: data/org.gnome.World.Citations.metainfo.xml.in.in:15
+msgid "Main window"
+msgstr "主窗口"
+
+#. Translators: Selects a PDF file for the citation
+#: data/resources/ui/add_pdf_dialog.ui:8 data/resources/ui/entry_page.ui:268
+msgid "Add PDF"
+msgstr "添加 PDF"
+
+#: data/resources/ui/add_pdf_dialog.ui:47
+msgid "Bibliography folder not set"
+msgstr "未设置参考文献文件夹"
+
+#: data/resources/ui/add_pdf_dialog.ui:65
+msgid ""
+"Creates a copy of the selected pdf and stores it in your Bibliography folder."
+msgstr "创建选中 pdf 的副本并将其存储在您的参考文献文件夹。"
+
+#: data/resources/ui/add_pdf_dialog.ui:80
+msgid "Add From URL"
+msgstr "从 URL 添加"
+
+#: data/resources/ui/add_pdf_dialog.ui:86
+msgid "Download…"
+msgstr "下载…"
+
+#: data/resources/ui/add_pdf_dialog.ui:98
+msgid "Add From File…"
+msgstr "从文件添加…"
+
+#: data/resources/ui/citation_preview.ui:15
+msgid "Custom Citation Format"
+msgstr "自定义引用格式"
+
+#: data/resources/ui/citation_preview.ui:50
+msgid "Citation"
+msgstr "引文"
+
+#: data/resources/ui/citation_preview.ui:94 data/resources/ui/entry_page.ui:113
+msgid "Copy"
+msgstr "复制"
+
+#: data/resources/ui/citation_preview.ui:137
+msgid "Custom Template"
+msgstr "自定义模板"
+
+#: data/resources/ui/citation_preview.ui:153
+msgid ""
+"Write a custom format for your citations, to insert the contents of a tag "
+"<tt>sometag</tt> write <tt>%SOMETAG%</tt>. Basic markdown syntax for bold "
+"and italics is supported.\n"
+"            "
+msgstr ""
+"为您的引用编写自定义格式，要插入<tt>一些标签</tt>内容则写入 <tt>%SOMETAG%</"
+"tt>。支持用于粗体和斜体的基础 markdown 语法。\n"
+"            "
+
+#: data/resources/ui/citation_preview.ui:159
+msgid "Example:"
+msgstr "示例："
+
+#. TRANSLATORS Empty state widget
+#: data/resources/ui/entry_list.ui:9
+msgid "No Citations"
+msgstr "无引文"
+
+#: data/resources/ui/entry_list.ui:10
+msgid "Create a new citation"
+msgstr "创建新引文"
+
+#: data/resources/ui/entry_list_row.ui:91
+msgid "_Open PDF"
+msgstr "打开 PDF(_O)"
+
+#: data/resources/ui/entry_list_row.ui:95
+msgid "_Copy Key"
+msgstr "复制密钥(_C)"
+
+#: data/resources/ui/entry_list_row.ui:101 data/resources/ui/window.ui:61
+msgid "_Delete"
+msgstr "删除(_D)"
+
+#: data/resources/ui/entry_page.ui:13
+msgid "No Citation Selected"
+msgstr "未选中引文"
+
+#: data/resources/ui/entry_page.ui:82
+msgid "Citation _Type"
+msgstr "引文类型(_T)"
+
+#: data/resources/ui/entry_page.ui:98
+msgid "_Other Citation Type"
+msgstr "其它引文类型(_O)"
+
+#: data/resources/ui/entry_page.ui:105
+msgid "_Citation Key"
+msgstr "引文密钥(_C)"
+
+#: data/resources/ui/entry_page.ui:124
+msgid "_Author"
+msgstr "作者(_A)"
+
+#: data/resources/ui/entry_page.ui:130
+msgid "_Title"
+msgstr "标题(_T)"
+
+#: data/resources/ui/entry_page.ui:136
+msgid "_Year"
+msgstr "年份(_Y)"
+
+#: data/resources/ui/entry_page.ui:152 src/entry_page.rs:400
+msgid "Open in Browser"
+msgstr "在浏览器中打开"
+
+#: data/resources/ui/entry_page.ui:168
+msgid "Other Properties"
+msgstr "其他属性"
+
+#: data/resources/ui/entry_page.ui:182
+msgid "Abstract"
+msgstr "摘要"
+
+#: data/resources/ui/entry_page.ui:186
+msgid "Copy Abstract"
+msgstr "复制摘要"
+
+#: data/resources/ui/entry_page.ui:218
+msgid "Notes"
+msgstr "备注"
+
+#: data/resources/ui/entry_page.ui:222
+msgid "Copy Notes"
+msgstr "复制备注"
+
+#: data/resources/ui/entry_page.ui:286
+msgid "PDF"
+msgstr "PDF"
+
+#: data/resources/ui/entry_page.ui:297 data/resources/ui/window.ui:10
+#: data/resources/ui/window.ui:107 data/resources/ui/window.ui:158
+msgid "_Open"
+msgstr "打开(_O)"
+
+#: data/resources/ui/entry_page.ui:311
+msgid "Delete PDF"
+msgstr "删除 PDF"
+
+#: data/resources/ui/entry_page.ui:352
+msgid "Could not set PDF Preview"
+msgstr "无法设置 PDF 预览"
+
+#: data/resources/ui/new_entry_dialog.ui:7
+msgid "Add new Entry"
+msgstr "添加新条目"
+
+#: data/resources/ui/new_entry_dialog.ui:18
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: data/resources/ui/new_entry_dialog.ui:26
+msgid "C_reate"
+msgstr "创建(_R)"
+
+#: data/resources/ui/new_entry_dialog.ui:44
+msgid "New"
+msgstr "新建"
+
+#: data/resources/ui/new_entry_dialog.ui:63
+msgid "Citation Key"
+msgstr "引文密钥"
+
+#: data/resources/ui/new_entry_dialog.ui:70
+msgid "Citation Type"
+msgstr "引文类型"
+
+#. TRANSLATORS BibTeX is a proper name
+#: data/resources/ui/new_entry_dialog.ui:90
+msgid "From BibTeX"
+msgstr "来自 BibTeX"
+
+#: data/resources/ui/new_entry_dialog.ui:109
+msgid "From DOI"
+msgstr "来自 DOI"
+
+#. TRANSLATORS DOI is a proper name
+#: data/resources/ui/new_entry_dialog.ui:120
+msgid "DOI"
+msgstr "DOI"
+
+#: data/resources/ui/shortcuts.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "常规"
+
+#: data/resources/ui/shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "显示快捷键"
+
+#: data/resources/ui/shortcuts.ui:20
+msgctxt "shortcut window"
+msgid "New Window"
+msgstr "新建窗口"
+
+#: data/resources/ui/shortcuts.ui:26
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "退出"
+
+#: data/resources/ui/shortcuts.ui:34
+msgctxt "shortcut window"
+msgid "Bibliography"
+msgstr "参考文献"
+
+#: data/resources/ui/shortcuts.ui:37
+msgctxt "shortcut window"
+msgid "Open"
+msgstr "打开"
+
+#: data/resources/ui/shortcuts.ui:43
+msgctxt "shortcut window"
+msgid "Save"
+msgstr "保存"
+
+#: data/resources/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "搜索"
+
+#: data/resources/ui/window.ui:6
+msgid "_Create New Bibliography"
+msgstr "创建新参考文献(_C)"
+
+#: data/resources/ui/window.ui:17 data/resources/ui/window.ui:39
+msgid "_Keyboard Shortcuts"
+msgstr "键盘快捷键(_K)"
+
+#. TRANSLATORS About dialog
+#: data/resources/ui/window.ui:21 data/resources/ui/window.ui:43
+msgid "_About Citations"
+msgstr "关于引文(_A)"
+
+#: data/resources/ui/window.ui:29
+msgid "_Save"
+msgstr "保存(S)"
+
+#: data/resources/ui/window.ui:33
+msgid "New _Window"
+msgstr "新建窗口(_W)"
+
+#: data/resources/ui/window.ui:51
+msgid "_Search in Google Scholar"
+msgstr "在谷歌学术中搜索(_S)"
+
+#. TRANSLATORS arXiv is a proper name
+#: data/resources/ui/window.ui:55
+msgid "_Search in arXiv"
+msgstr "在 arXiv 中搜索(_S)"
+
+#: data/resources/ui/window.ui:90 data/resources/ui/window.ui:131
+#: data/resources/ui/window.ui:212
+msgid "Main Menu"
+msgstr "主菜单"
+
+#. TRANSLATORS BibTeX is a proper name
+#: data/resources/ui/window.ui:100
+msgid "Open a BibTeX File"
+msgstr "打开 BibTeX 文件"
+
+#: data/resources/ui/window.ui:101
+msgid "Or drag-and-drop a file"
+msgstr "或拖放文件"
+
+#: data/resources/ui/window.ui:140
+msgid "Manage your Citations"
+msgstr "管理您的引文"
+
+#: data/resources/ui/window.ui:150
+msgid "Recent Files"
+msgstr "最近的文件"
+
+#: data/resources/ui/window.ui:194
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: data/resources/ui/window.ui:205
+msgid "Add New Citation"
+msgstr "添加新引文"
+
+#: data/resources/ui/window.ui:219
+msgid "Search"
+msgstr "搜索"
+
+#: data/resources/ui/window.ui:233
+msgid "Search…"
+msgstr "搜索…"
+
+#: data/resources/ui/window.ui:255
+msgid "Content"
+msgstr "目录"
+
+#: data/resources/ui/window.ui:265
+msgid "Secondary Menu"
+msgstr "次级菜单"
+
+#: src/add_pdf_dialog.rs:58
+msgid "Could not set PDF"
+msgstr "无法设置 PDF"
+
+#: src/add_pdf_dialog.rs:78
+msgid "Could not download PDF"
+msgstr "无法下载 PDF"
+
+#. TRANSLATORS Do NOT translate {path}, it is a variable name
+#: src/add_pdf_dialog.rs:105
+msgid "Make sure that {path} exists"
+msgstr "请确保 {path} 存在"
+
+#: src/add_pdf_dialog.rs:193
+msgid "PDF Files"
+msgstr "PDF 文件"
+
+#: src/add_pdf_dialog.rs:201
+msgid "Select a PDF"
+msgstr "选择 PDF"
+
+#: src/application.rs:37
+msgid "Enable debug messages"
+msgstr "启用调试消息"
+
+#. TODO Should this be translatable?
+#: src/citation_preview.rs:56
+msgid "Chicago"
+msgstr "芝加哥"
+
+#: src/citation_preview.rs:57
+msgid "Harvard"
+msgstr "哈佛"
+
+#: src/citation_preview.rs:58
+msgid "Vancouver"
+msgstr "温哥华"
+
+#. NOTE: Custom as in Custom Template.
+#: src/citation_preview.rs:60
+msgid "Custom"
+msgstr "自定义"
+
+#: src/citation_preview.rs:266 src/entry_list_row.rs:59 src/entry_page.rs:233
+msgid "Copied"
+msgstr "已复制"
+
+#: src/citation_preview.rs:273
+msgid "Custom…"
+msgstr "自定义…"
+
+#: src/entry_list_row.rs:74
+msgid "Author not set"
+msgstr "未设定作者"
+
+#: src/entry_list_row.rs:85
+msgid "Title not set"
+msgstr "未设定标题"
+
+#: src/entry_page.rs:204
+msgid "Other…"
+msgstr "其他…"
+
+#. TRANSLATORS Every citation has an identifier called key
+#: src/entry_page.rs:252
+msgid "Citation Key already exists"
+msgstr "引文密钥已存在"
+
+#: src/entry_page.rs:605
+msgid "PDF added"
+msgstr "PDF 已添加"
+
+#: src/new_entry_dialog.rs:162
+msgid "Insert a BibTeX citation here"
+msgstr "在此处插入 BibTeX 引文"
+
+#: src/utils.rs:14
+msgid "Author"
+msgstr "作者"
+
+#: src/utils.rs:15
+msgid "Year"
+msgstr "年份"
+
+#: src/utils.rs:16
+msgid "Title"
+msgstr "标题"
+
+#: src/utils.rs:17
+msgid "Volume"
+msgstr "卷册"
+
+#: src/utils.rs:18
+msgid "Number"
+msgstr "编号"
+
+#: src/utils.rs:19
+msgid "Pages"
+msgstr "页码"
+
+#: src/utils.rs:20
+msgid "Publisher"
+msgstr "出版社"
+
+#: src/utils.rs:21
+msgid "Journal"
+msgstr "期刊"
+
+#: src/utils.rs:22
+msgid "Address"
+msgstr "地址"
+
+#. TRANSLATORS Method of publication, see https://www.bibtex.com/f/howpublished-field/
+#: src/utils.rs:24
+msgid "How Published"
+msgstr "出版方式"
+
+#: src/utils.rs:25
+msgid "Note"
+msgstr "备注"
+
+#: src/utils.rs:26
+msgid "Book Title"
+msgstr "书籍标题"
+
+#: src/utils.rs:27
+msgid "Series"
+msgstr "系列"
+
+#: src/utils.rs:28
+msgid "Archive Prefix"
+msgstr "归档前缀"
+
+#. TRANSLATORS As in digital print
+#: src/utils.rs:30
+msgid "ePrint"
+msgstr "数码印刷"
+
+#. TRANSLATORS Identifier used by arXiv, see https://arxiv.org/help/hypertex/bibstyles
+#: src/utils.rs:32
+msgid "Primary Class"
+msgstr "主类别"
+
+#: src/utils.rs:33
+msgid "Month"
+msgstr "月份"
+
+#. TRANSLATORS As in chief editor
+#: src/utils.rs:35
+msgid "Editor"
+msgstr "编辑"
+
+#. TRANSLATORS As in association
+#: src/utils.rs:37
+msgid "Organization"
+msgstr "组织"
+
+#: src/utils.rs:38
+msgid "School"
+msgstr "学校"
+
+#: src/utils.rs:39
+msgid "Institution"
+msgstr "机构"
+
+#: src/window.rs:117
+msgid "Could not add entry"
+msgstr "无法添加条目"
+
+#: src/window.rs:357 src/window.rs:382
+msgid "BibTeX Files"
+msgstr "BibTeX 文件"
+
+#: src/window.rs:391
+msgid "Create New Bibliography"
+msgstr "创建新参考文献"
+
+#: src/window.rs:392
+msgid "_Create"
+msgstr "创建(_C)"
+
+#. TRANSLATORS This a file name, .bib will be appended e.g.
+#. bibliography.bib, please only use alphabetic characters.
+#: src/window.rs:395
+msgid "bibliography"
+msgstr "参考文献"
+
+#: src/window.rs:518
+msgid "An entry with the given citation key already exists"
+msgstr "带有指定引文密钥的条目已存在"
+
+#: src/window.rs:533
+msgid "Bibliography saved"
+msgstr "参考文献已保存"
+
+#: src/window.rs:586
+msgid "Citation Deleted"
+msgstr "引文已删除"
+
+#: src/window.rs:588
+msgid "Undo"
+msgstr "撤消"
+
+#: src/window.rs:635
+msgid "translator-credits"
+msgstr ""
+"杨博远 <byang@debian.org>, 2022.\n"
+"lumingzh <lumingzh@qq.com>, 2022-2025."
+
+#. NOTE Dialog title which informs the user about unsaved changes.
+#: src/window.rs:647
+msgid "Unsaved Changes"
+msgstr "未保存的更改"
+
+#. NOTE Dialog subtitle which informs the user about unsaved changes more detailed.
+#: src/window.rs:650
+msgid "Do you want to write all changes to the safe?"
+msgstr "您想要写入所有更改吗？"
+
+#: src/window.rs:654
+msgid "_Quit Without Saving"
+msgstr "不保存并退出(_Q)"
+
+#: src/window.rs:655
+msgid "_Don't Quit"
+msgstr "不退出(_D)"
+
+#: src/window.rs:656
+msgid "_Save and Quit"
+msgstr "保存并退出(_S)"
+
+#: src/window.rs:699
+msgid "Remove From Recent Files"
+msgstr "从最近文件中移除"
+
+#~ msgid "Maximiliano Sandoval"
+#~ msgstr "Maximiliano Sandoval"
+
+#~ msgid "Back"
+#~ msgstr "后退"

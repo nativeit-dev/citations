@@ -1,0 +1,61 @@
+stages:
+  - check
+  - test
+  - deploy
+
+include:
+  - project: "GNOME/citemplates"
+    file: "flatpak/flatpak_ci_initiative.yml"
+  - project: 'GNOME/citemplates'
+    file: 'templates/basic-release.yml'
+
+variables:
+  BUNDLE: "citations-nightly.flatpak"
+  MANIFEST_PATH: "build-aux/org.gnome.World.Citations.Devel.json"
+  FLATPAK_MODULE: "citations"
+  APP_ID: "org.gnome.World.Citations.Devel"
+  RUNTIME_REPO: "https://nightly.gnome.org/gnome-nightly.flatpakrepo"
+
+flatpak@x86_64:
+  extends: ".flatpak@x86_64"
+
+flatpak@aarch64:
+  extends: ".flatpak@aarch64"
+
+nightly@x86_64:
+  extends: ".publish_nightly"
+  needs: ["flatpak@x86_64"]
+
+nightly@aarch64:
+  extends: ".publish_nightly"
+  needs: ["flatpak@aarch64"]
+
+
+# Configure and run rustfmt
+# Exits and builds fails if on bad format
+rustfmt:
+  stage: check
+  image: "rust:slim"
+  script:
+    - rustup component add rustfmt
+    # Create blank versions of our configured files
+    # so rustfmt does not yell about non-existent files or completely empty files
+    - echo -e "" >> src/config.rs
+    - rustc -Vv && cargo -Vv
+    - cargo fmt --version
+    - cargo fmt --all -- --color=always --check
+
+codespell:
+  stage: check
+  script:
+    - dnf install -y codespell
+    - codespell -L crate -S "*.po,target,_build" -f
+
+cargo-audit:
+  stage: test
+  interruptible: true
+  image: rust
+  allow_failure: true
+  script:
+    - cargo install cargo-deny
+    - cargo deny check advisories bans sources

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/World/Citations/">
+    <file compressed="true" preprocess="xml-stripblanks">ui/add_pdf_dialog.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/citation_preview.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/entry_list.ui</file>
+    <file preprocess="xml-stripblanks">ui/entry_list_row.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/entry_page.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/new_entry_dialog.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks" alias="gtk/help-overlay.ui">ui/shortcuts.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/window.ui</file>
+    <file compressed="true">style.css</file>
+  </gresource>
+  <gresource prefix="/org/gnome/World/Citations/icons/16x16/actions/">
+    <file preprocess="xml-stripblanks" alias="external-link-symbolic.svg">icons/external-link-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="image-missing-symbolic.svg">icons/image-missing-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="document-text-symbolic.svg">icons/document-text-symbolic.svg</file>
+  </gresource>
+</gresources>
