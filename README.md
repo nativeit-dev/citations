@@ -1,3 +1,5 @@
+>ℹ️ **NOTE**: This repository is an untethered clone of Gnome's [Citations](https://gitlab.gnome.org/World/citations) application. It was made for the purpose of my own independent experimentation and learning. Changes may be breaking, standards may be ignored, nothing will be safe from deletion. If you're looking for the real thing, find it at [https://gitlab.gnome.org/World/citations](https://gitlab.gnome.org/World/citations).
+
 <a href="https://flathub.org/apps/details/org.gnome.World.Citations">
 <img src="https://flathub.org/api/badge?svg&locale=en&light" width="190px" />
 </a>
